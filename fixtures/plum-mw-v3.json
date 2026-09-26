@@ -1,0 +1,401 @@
+{
+  "parserVersion": 3,
+  "source": "mw",
+  "headword": "plum",
+  "url": "file:///C:/Users/taos6/AppData/Local/Temp/worddesk-parser-f5KXnQ/plum-mw.html",
+  "capturedAt": "2026-09-20T08:44:16.821Z",
+  "senses": [
+    {
+      "pos": "noun",
+      "section": "主词典 1",
+      "entryId": "dictionary-entry-1",
+      "number": "1",
+      "definition": "any of various trees and shrubs (genus Prunus) of the rose family with globular to oval smooth-skinned edible fruits that are drupes with oblong seeds\nalso : the fruit",
+      "parts": [
+        {
+          "label": "",
+          "text": "any of various trees and shrubs (genus Prunus) of the rose family with globular to oval smooth-skinned edible fruits that are drupes with oblong seeds"
+        },
+        {
+          "label": "also",
+          "text": "the fruit"
+        }
+      ],
+      "translation": "",
+      "examples": [],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "noun",
+      "section": "主词典 2",
+      "entryId": "dictionary-entry-1",
+      "number": "2",
+      "definition": "any of various trees with edible fruits resembling plums\nalso : the fruit",
+      "parts": [
+        {
+          "label": "",
+          "text": "any of various trees with edible fruits resembling plums"
+        },
+        {
+          "label": "also",
+          "text": "the fruit"
+        }
+      ],
+      "translation": "",
+      "examples": [],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "noun",
+      "section": "主词典 3a",
+      "entryId": "dictionary-entry-1",
+      "number": "3a",
+      "definition": "a raisin when used in desserts",
+      "parts": [
+        {
+          "label": "",
+          "text": "a raisin when used in desserts"
+        }
+      ],
+      "translation": "",
+      "examples": [],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "noun",
+      "section": "主词典 3b",
+      "entryId": "dictionary-entry-1",
+      "number": "3b",
+      "definition": "sugarplum",
+      "parts": [
+        {
+          "label": "",
+          "text": "sugarplum"
+        }
+      ],
+      "translation": "",
+      "examples": [],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "noun",
+      "section": "主词典 4",
+      "entryId": "dictionary-entry-1",
+      "number": "4",
+      "definition": "something superior or very desirable\nespecially : something desirable given in return for a favor",
+      "parts": [
+        {
+          "label": "",
+          "text": "something superior or very desirable"
+        },
+        {
+          "label": "especially",
+          "text": "something desirable given in return for a favor"
+        }
+      ],
+      "translation": "",
+      "examples": [],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "noun",
+      "section": "主词典 5",
+      "entryId": "dictionary-entry-1",
+      "number": "5",
+      "definition": "a dark reddish purple",
+      "parts": [
+        {
+          "label": "",
+          "text": "a dark reddish purple"
+        }
+      ],
+      "translation": "",
+      "examples": [],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "noun",
+      "section": "儿童词典 1a",
+      "entryId": "elementary-entry-1",
+      "number": "1a",
+      "definition": "any of numerous trees and shrubs related to the peach and cherries and having globe-shaped to oval edible fruits with an oblong stone",
+      "parts": [
+        {
+          "label": "",
+          "text": "any of numerous trees and shrubs related to the peach and cherries and having globe-shaped to oval edible fruits with an oblong stone"
+        }
+      ],
+      "translation": "",
+      "examples": [],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "noun",
+      "section": "儿童词典 1b",
+      "entryId": "elementary-entry-1",
+      "number": "1b",
+      "definition": "the smooth-skinned fruit of a plum",
+      "parts": [
+        {
+          "label": "",
+          "text": "the smooth-skinned fruit of a plum"
+        }
+      ],
+      "translation": "",
+      "examples": [],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "noun",
+      "section": "儿童词典 2",
+      "entryId": "elementary-entry-1",
+      "number": "2",
+      "definition": "a raisin when used in desserts (as puddings or cake)",
+      "parts": [
+        {
+          "label": "",
+          "text": "a raisin when used in desserts (as puddings or cake)"
+        }
+      ],
+      "translation": "",
+      "examples": [],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "noun",
+      "section": "儿童词典 3",
+      "entryId": "elementary-entry-1",
+      "number": "3",
+      "definition": "something very desirable",
+      "parts": [
+        {
+          "label": "",
+          "text": "something very desirable"
+        }
+      ],
+      "translation": "",
+      "examples": [],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "noun",
+      "section": "儿童词典 4",
+      "entryId": "elementary-entry-1",
+      "number": "4",
+      "definition": "a dark reddish purple",
+      "parts": [
+        {
+          "label": "",
+          "text": "a dark reddish purple"
+        }
+      ],
+      "translation": "",
+      "examples": [],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "geographical name",
+      "section": "地理词典",
+      "entryId": "dictionary-entry-1",
+      "number": "—",
+      "definition": "borough in southwestern Pennsylvania that is a suburb of Pittsburgh",
+      "parts": [
+        {
+          "label": "",
+          "text": "borough in southwestern Pennsylvania that is a suburb of Pittsburgh"
+        }
+      ],
+      "translation": "",
+      "examples": [],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    }
+  ],
+  "pronunciations": [
+    {
+      "region": "MW",
+      "value": "ˈpləm",
+      "label": "",
+      "suffix": "",
+      "form": "plum",
+      "kind": "headword",
+      "pos": "noun",
+      "edition": "主词典"
+    },
+    {
+      "region": "MW",
+      "value": "ˈpləm-ˌlīk",
+      "label": "",
+      "suffix": "",
+      "form": "plumlike",
+      "kind": "derived",
+      "pos": "adjective",
+      "edition": "主词典"
+    },
+    {
+      "region": "MW",
+      "value": "ˈpləm",
+      "label": "",
+      "suffix": "",
+      "form": "plum",
+      "kind": "headword",
+      "pos": "noun",
+      "edition": "儿童词典"
+    },
+    {
+      "region": "MW",
+      "value": "-ˌlīk",
+      "label": "",
+      "suffix": "",
+      "form": "plumlike",
+      "kind": "derived",
+      "pos": "adjective",
+      "edition": "儿童词典"
+    },
+    {
+      "region": "MW",
+      "value": "ˈpləm",
+      "label": "",
+      "suffix": "",
+      "form": "Plum",
+      "kind": "headword",
+      "pos": "geographical name",
+      "edition": "地理词典"
+    }
+  ],
+  "pronunciationGroups": [
+    {
+      "form": "plum",
+      "kind": "headword",
+      "pos": "noun",
+      "edition": "主词典",
+      "region": "MW",
+      "items": [
+        {
+          "label": "",
+          "value": "ˈpləm",
+          "suffix": "",
+          "audioUrl": "https://media.merriam-webster.com/audio/prons/en/us/mp3/p/plum0001.mp3"
+        }
+      ]
+    },
+    {
+      "form": "plumlike",
+      "kind": "derived",
+      "pos": "adjective",
+      "edition": "主词典",
+      "region": "MW",
+      "items": [
+        {
+          "label": "",
+          "value": "ˈpləm-ˌlīk",
+          "suffix": "",
+          "audioUrl": "https://media.merriam-webster.com/audio/prons/en/us/mp3/p/plum0002.mp3"
+        }
+      ]
+    },
+    {
+      "form": "plum",
+      "kind": "headword",
+      "pos": "noun",
+      "edition": "儿童词典",
+      "region": "MW",
+      "items": [
+        {
+          "label": "",
+          "value": "ˈpləm",
+          "suffix": "",
+          "audioUrl": "https://media.merriam-webster.com/audio/prons/en/us/mp3/p/plum0001.mp3"
+        }
+      ]
+    },
+    {
+      "form": "plumlike",
+      "kind": "derived",
+      "pos": "adjective",
+      "edition": "儿童词典",
+      "region": "MW",
+      "items": [
+        {
+          "label": "",
+          "value": "-ˌlīk",
+          "suffix": "",
+          "audioUrl": "https://media.merriam-webster.com/audio/prons/en/us/mp3/p/plum0002.mp3"
+        }
+      ]
+    },
+    {
+      "form": "Plum",
+      "kind": "headword",
+      "pos": "geographical name",
+      "edition": "地理词典",
+      "region": "MW",
+      "items": [
+        {
+          "label": "",
+          "value": "ˈpləm",
+          "suffix": "",
+          "audioUrl": "https://media.merriam-webster.com/audio/prons/en/us/mp3/gg/ggplum01.mp3"
+        }
+      ]
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/p/plum0001.mp3",
+      "region": "MW",
+      "form": "plum",
+      "pronunciation": "ˈpləm",
+      "pos": "noun"
+    },
+    {
+      "url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/p/plum0002.mp3",
+      "region": "MW",
+      "form": "plumlike",
+      "pronunciation": "ˈpləm-ˌlīk",
+      "pos": "adjective"
+    },
+    {
+      "url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/gg/ggplum01.mp3",
+      "region": "MW",
+      "form": "Plum",
+      "pronunciation": "ˈpləm",
+      "pos": "geographical name"
+    }
+  ],
+  "forms": [],
+  "phrases": [
+    "beach plum",
+    "Japanese plum",
+    "plum pudding",
+    "plum tomato"
+  ],
+  "labels": [],
+  "references": [],
+  "rawText": "plum noun ˈpləm How to pronounce plum (audio) Synonyms of plumnext Simple Definition A Simple Definition is available from our Learner's Dictionary to help you understand the meaning faster. often attributive 1 : any of various trees and shrubs (genus Prunus) of the rose family with globular to oval smooth-skinned edible fruits that are drupes with oblong seeds also : the fruit 2 : any of various trees with edible fruits resembling plums also : the fruit 3 a : a raisin when used in desserts b : sugarplum 4 : something superior or very desirable especially : something desirable given in return for a favor 5 : a dark reddish purple plumlike ˈpləm-ˌlīk How to pronounce plum (audio) adjective\n\nplum noun ˈpləm How to pronounce plum (audio) 1 a : any of numerous trees and shrubs related to the peach and cherries and having globe-shaped to oval edible fruits with an oblong stone b : the smooth-skinned fruit of a plum 2 : a raisin when used in desserts (as puddings or cake) 3 : something very desirable 4 : a dark reddish purple plumlike -ˌlīk How to pronounce plum (audio) adjective\n\nPlum geographical name ˈpləm How to pronounce Plum (audio) Simple Definition A Simple Definition is available from our Learner's Dictionary to help you understand the meaning faster. borough in southwestern Pennsylvania that is a suburb of Pittsburgh",
+  "warnings": [],
+  "snapshot": []
+}

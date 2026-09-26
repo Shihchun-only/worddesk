@@ -1,0 +1,1293 @@
+{
+  "parserVersion": 3,
+  "source": "cambridge",
+  "headword": "go",
+  "url": "file:///C:/Users/taos6/AppData/Local/Temp/worddesk-parser-f5KXnQ/go-cambridge.html",
+  "capturedAt": "2026-09-20T08:44:18.002Z",
+  "senses": [
+    {
+      "pos": "verb",
+      "section": "(MOVE/TRAVEL)",
+      "number": "1",
+      "entryId": "cambridge-0",
+      "definition": "to travel or move to another place",
+      "parts": [
+        {
+          "label": "",
+          "text": "to travel or move to another place"
+        }
+      ],
+      "translation": "去;走",
+      "examples": [
+        {
+          "text": "We went into the house.",
+          "translation": "我们走进了那座房子。",
+          "selected": false
+        },
+        {
+          "text": "I went to Paris last summer. Have you ever been there?",
+          "translation": "去年夏天我去了巴黎，你去过那儿吗？",
+          "selected": false
+        },
+        {
+          "text": "We don't go to the cinema very often these days.",
+          "translation": "近来我们不大常看电影。",
+          "selected": false
+        },
+        {
+          "text": "Wouldn't it be quicker to go by train?",
+          "translation": "坐火车去不是更快一些吗？",
+          "selected": false
+        },
+        {
+          "text": "Does this train go to Newcastle?",
+          "translation": "这趟火车去纽卡斯尔吗？",
+          "selected": false
+        },
+        {
+          "text": "Where do you think you're going? Shouldn't you be at school?",
+          "translation": "这是到哪去啊？你现在应该在学校里，不是吗？",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": "[ I usually + adv/prep ]"
+    },
+    {
+      "pos": "verb",
+      "section": "(MOVE/TRAVEL)",
+      "number": "2",
+      "entryId": "cambridge-0",
+      "definition": "to be in the process of moving",
+      "parts": [
+        {
+          "label": "",
+          "text": "to be in the process of moving"
+        }
+      ],
+      "translation": "移动;行走",
+      "examples": [
+        {
+          "text": "Can't we go any faster?",
+          "translation": "我们能不能走得再快点儿？",
+          "selected": false
+        },
+        {
+          "text": "We were going along at about 50 miles an hour.",
+          "translation": "我们正在以每小时50英里左右的速度行进。",
+          "selected": false
+        },
+        {
+          "text": "to go down the road",
+          "translation": "沿着这条路走",
+          "selected": false
+        },
+        {
+          "text": "to go up/down stairs",
+          "translation": "上／下楼梯",
+          "selected": false
+        },
+        {
+          "text": "to go over the bridge",
+          "translation": "过桥",
+          "selected": false
+        },
+        {
+          "text": "to go through a tunnel",
+          "translation": "穿过隧道",
+          "selected": false
+        },
+        {
+          "text": "I've got a tune going around/round in my head (= I am continually hearing it) and I just can't remember the name of it.",
+          "translation": "一支曲调时时在我脑海萦绕，但我就是想不起它的名字。",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": "[ I usually + adv/prep ]; figurative"
+    },
+    {
+      "pos": "verb",
+      "section": "(MOVE/TRAVEL)",
+      "number": "3",
+      "entryId": "cambridge-0",
+      "definition": "to move or travel somewhere in order to do something",
+      "parts": [
+        {
+          "label": "",
+          "text": "to move or travel somewhere in order to do something"
+        }
+      ],
+      "translation": "去（做…）；去（参加）；去（从事）",
+      "examples": [
+        {
+          "text": "We go shopping every Friday night.",
+          "translation": "我们每周五晚上去购物。",
+          "selected": false
+        },
+        {
+          "text": "I've never gone skiing.",
+          "translation": "我从来没去滑过雪。",
+          "selected": false
+        },
+        {
+          "text": "They've gone for a walk, but they should be back soon.",
+          "translation": "他们去散步了，但是应该很快就会回来。",
+          "selected": false
+        },
+        {
+          "text": "She went to meet Blake at the station.",
+          "translation": "她去火车站接布雷克了。",
+          "selected": false
+        },
+        {
+          "text": "There's a good film on at the Odeon. Shall we go?",
+          "translation": "奥登影院正在放映一部好片子，我们去看吧？",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": "[ I ]; [ + -ing verb ]; [ + to infinitive ]"
+    },
+    {
+      "pos": "verb",
+      "section": "where has/have something gone?",
+      "number": "4",
+      "entryId": "cambridge-0",
+      "definition": "said when you cannot find something:",
+      "parts": [
+        {
+          "label": "",
+          "text": "said when you cannot find something:"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "Where have my keys gone?",
+          "translation": "我的钥匙跑哪去了？",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "(LEAVE)",
+      "number": "5",
+      "entryId": "cambridge-0",
+      "definition": "to leave a place, especially in order to travel to somewhere else",
+      "parts": [
+        {
+          "label": "",
+          "text": "to leave a place, especially in order to travel to somewhere else"
+        }
+      ],
+      "translation": "（尤指为了去别的地方）离开，离去，出发",
+      "examples": [
+        {
+          "text": "Is it midnight already? I really must go/must be going.",
+          "translation": "都已经到半夜了？我真的得走了。",
+          "selected": false
+        },
+        {
+          "text": "She wasn't feeling well, so she went home early.",
+          "translation": "她感到不舒服，所以提前离开回家了。",
+          "selected": false
+        },
+        {
+          "text": "What time does the last train to Bath go?",
+          "translation": "去巴斯的最后一趟火车什么时侯开？",
+          "selected": false
+        },
+        {
+          "text": "I'm afraid he'll have to go (= be dismissed from his job) - he's far too inefficient to continue working for us.",
+          "translation": "恐怕他得走人了——他实在太不称职，没法继续在这儿干下去。",
+          "selected": false
+        },
+        {
+          "text": "This carpet's terribly old and worn out - it really will have to go (= be got rid of).",
+          "translation": "这张地毯破旧不堪，磨损严重——必须得换了。",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": "[ I ]"
+    },
+    {
+      "pos": "verb",
+      "section": "to go",
+      "number": "6",
+      "entryId": "cambridge-0",
+      "definition": "If you ask for some food to go at a restaurant, you want it wrapped up so that you can take it away with you instead of eating it in the restaurant:",
+      "parts": [
+        {
+          "label": "",
+          "text": "If you ask for some food to go at a restaurant, you want it wrapped up so that you can take it away with you instead of eating it in the restaurant:"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "I'd like a cheeseburger and strawberry milkshake to go, please.",
+          "translation": "我要外带一个奶酪汉堡包，一份草莓奶昔。",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "(LEAVE)",
+      "number": "7",
+      "entryId": "cambridge-0",
+      "definition": "polite word for to die",
+      "parts": [
+        {
+          "label": "",
+          "text": "polite word for to die"
+        }
+      ],
+      "translation": "去世，离开人世",
+      "examples": [
+        {
+          "text": "She went peacefully in her sleep.",
+          "translation": "她在睡眠中安详辞世。",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": "[ I ]; polite word"
+    },
+    {
+      "pos": "verb",
+      "section": "(LEAD)",
+      "number": "8",
+      "entryId": "cambridge-0",
+      "definition": "If a road, path, etc. goes in a particular direction, it leads there.",
+      "parts": [
+        {
+          "label": "",
+          "text": "If a road, path, etc. goes in a particular direction, it leads there."
+        }
+      ],
+      "translation": "通（向）;延伸",
+      "examples": [
+        {
+          "text": "This road goes to Birmingham.",
+          "translation": "这条路通向伯明翰。",
+          "selected": false
+        },
+        {
+          "text": "A huge crack went from the top to the bottom of the wall.",
+          "translation": "墙上裂了一条很大的裂缝，从房顶一直延伸到地面。",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": "[ I + adv/prep ]"
+    },
+    {
+      "pos": "verb",
+      "section": "(LEAD)",
+      "number": "9",
+      "entryId": "cambridge-0",
+      "definition": "to continue for a particular length",
+      "parts": [
+        {
+          "label": "",
+          "text": "to continue for a particular length"
+        }
+      ],
+      "translation": "延展，延伸（一段距离）",
+      "examples": [
+        {
+          "text": "The tree's roots go down three metres.",
+          "translation": "这棵树的根一直到地下3米。",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": "[ I usually + adv/prep ]"
+    },
+    {
+      "pos": "verb",
+      "section": "be going to do/be something",
+      "number": "10",
+      "entryId": "cambridge-0",
+      "definition": "to intend to do or be something in the future:",
+      "parts": [
+        {
+          "label": "",
+          "text": "to intend to do or be something in the future:"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "Are you going to go to Claire's party?",
+          "translation": "你打算去参加克莱尔的聚会吗？",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "be going to do/be something",
+      "number": "11",
+      "entryId": "cambridge-0",
+      "definition": "to be certain or expected to happen in the future:",
+      "parts": [
+        {
+          "label": "",
+          "text": "to be certain or expected to happen in the future:"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "They're going to have a baby in the spring.",
+          "translation": "到春天他们就会有孩子了。",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "(BECOME)",
+      "number": "12",
+      "entryId": "cambridge-0",
+      "definition": "to become",
+      "parts": [
+        {
+          "label": "",
+          "text": "to become"
+        }
+      ],
+      "translation": "变得，变成，成为",
+      "examples": [
+        {
+          "text": "The idea of going grey doesn't bother me, but I'd hate to go bald.",
+          "translation": "我不在乎我的头发会变灰白，但是我真的很受不了变成个秃头。",
+          "selected": false
+        },
+        {
+          "text": "Her father's going senile/blind/deaf.",
+          "translation": "她父亲变老了／失明了／变聋了。",
+          "selected": false
+        },
+        {
+          "text": "If anything goes wrong, you can call our emergency hotline free of charge.",
+          "translation": "如出现任何问题，你可以拨打我们的免费紧急热线。",
+          "selected": false
+        },
+        {
+          "text": "After twelve years of Republican presidents, the US went Democratic in 1992.",
+          "translation": "在共和党人做了12年的总统后，美国在1992年进入了民主党执政的时代。",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": "[ L only + adj ]"
+    },
+    {
+      "pos": "verb",
+      "section": "(MOVE BODY)",
+      "number": "13",
+      "entryId": "cambridge-0",
+      "definition": "to move a part of the body in a particular way or the way that is shown",
+      "parts": [
+        {
+          "label": "",
+          "text": "to move a part of the body in a particular way or the way that is shown"
+        }
+      ],
+      "translation": "做特定的动作",
+      "examples": [
+        {
+          "text": "Go like this with your hand to show that you're turning left.",
+          "translation": "这样伸出手，示意你要往左转弯了。",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": "[ I usually + adv/prep ]"
+    },
+    {
+      "pos": "verb",
+      "section": "(OPERATE)",
+      "number": "14",
+      "entryId": "cambridge-0",
+      "definition": "to operate (in the right way)",
+      "parts": [
+        {
+          "label": "",
+          "text": "to operate (in the right way)"
+        }
+      ],
+      "translation": "（正常地）运转，运行，工作",
+      "examples": [
+        {
+          "text": "Have you any idea why this watch won't go?",
+          "translation": "你知道为什么这块手表不走了吗？",
+          "selected": false
+        },
+        {
+          "text": "Can you help me get my car going?",
+          "translation": "你能帮我把车发动起来吗？",
+          "selected": false
+        },
+        {
+          "text": "Our company has been going (= has been in business) for 20 years.",
+          "translation": "我们公司已经有20年的历史了。",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": "[ I ]"
+    },
+    {
+      "pos": "verb",
+      "section": "(TIME)",
+      "number": "15",
+      "entryId": "cambridge-0",
+      "definition": "If a period of time goes, it passes.",
+      "parts": [
+        {
+          "label": "",
+          "text": "If a period of time goes, it passes."
+        }
+      ],
+      "translation": "（时间）过去，流逝，消逝",
+      "examples": [
+        {
+          "text": "I had a wonderful weekend but it went very quickly.",
+          "translation": "我周末过得很愉快，可就是时间过得太快了。",
+          "selected": false
+        },
+        {
+          "text": "Time seems to go faster as you get older.",
+          "translation": "随着年龄变大，时间也好像过得更快了。",
+          "selected": false
+        },
+        {
+          "text": "There's only a week to go before (= until) I get my exam results.",
+          "translation": "只要再过一个星期我的考试结果就出来了。",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": "[ I ]"
+    },
+    {
+      "pos": "verb",
+      "section": "(BE)",
+      "number": "16",
+      "entryId": "cambridge-0",
+      "definition": "to be or stay in a particular condition, especially an unpleasant one",
+      "parts": [
+        {
+          "label": "",
+          "text": "to be or stay in a particular condition, especially an unpleasant one"
+        }
+      ],
+      "translation": "处于（尤指令人不快的状况）",
+      "examples": [
+        {
+          "text": "In spite of the relief effort, thousands of people continue to go hungry.",
+          "translation": "尽管提供了救济，仍有数以千计的人继续处于饥饿状态。",
+          "selected": false
+        },
+        {
+          "text": "Why do so many rapes go unreported?",
+          "translation": "为什么有那么多人被强奸后没有报案呢？",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": "[ L only + adj ]"
+    },
+    {
+      "pos": "verb",
+      "section": "as...go",
+      "number": "17",
+      "entryId": "cambridge-0",
+      "definition": "in comparison with most other things of a particular type, especially when you do not think that type of thing is very good:",
+      "parts": [
+        {
+          "label": "",
+          "text": "in comparison with most other things of a particular type, especially when you do not think that type of thing is very good:"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "It was quite a good film, as horror films go.",
+          "translation": "就恐怖片而言，这片子还算不错。",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "go to prove/show",
+      "number": "18",
+      "entryId": "cambridge-0",
+      "definition": "to prove that something is true:",
+      "parts": [
+        {
+          "label": "",
+          "text": "to prove that something is true:"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "Your daughter's attitude only goes to prove how much society has changed over the last 30 years.",
+          "translation": "你女儿的态度恰恰证明了过去30年里社会的变化有多大。",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "(START)",
+      "number": "19",
+      "entryId": "cambridge-0",
+      "definition": "to start doing or using something",
+      "parts": [
+        {
+          "label": "",
+          "text": "to start doing or using something"
+        }
+      ],
+      "translation": "开始",
+      "examples": [
+        {
+          "text": "I'll just connect the printer to the computer and then we'll be ready to go.",
+          "translation": "我只要把打印机和电脑连接上，我们就可以开始了。",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": "[ I ]"
+    },
+    {
+      "pos": "verb",
+      "section": "(PLAY GAME)",
+      "number": "20",
+      "entryId": "cambridge-0",
+      "definition": "to use your opportunity to play in a game",
+      "parts": [
+        {
+          "label": "",
+          "text": "to use your opportunity to play in a game"
+        }
+      ],
+      "translation": "（游戏中轮到的时候）去（玩）",
+      "examples": [
+        {
+          "text": "It's your turn to go now.",
+          "translation": "轮到你来玩了。",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": "[ I ]"
+    },
+    {
+      "pos": "verb",
+      "section": "(DIVIDE)",
+      "number": "21",
+      "entryId": "cambridge-0",
+      "definition": "(of a number) to fit into another number especially resulting in a whole number",
+      "parts": [
+        {
+          "label": "",
+          "text": "(of a number) to fit into another number especially resulting in a whole number"
+        }
+      ],
+      "translation": "除;（尤指）整除",
+      "examples": [
+        {
+          "text": "5 into 11 won't go.",
+          "translation": "5除11除不尽。",
+          "selected": false
+        },
+        {
+          "text": "3 goes into 15 fives times.",
+          "translation": "3除15等于5。",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": "[ I not continuous ]"
+    },
+    {
+      "pos": "verb",
+      "section": "(SAY)",
+      "number": "22",
+      "entryId": "cambridge-0",
+      "definition": "to say, especially when a story is being told",
+      "parts": [
+        {
+          "label": "",
+          "text": "to say, especially when a story is being told"
+        }
+      ],
+      "translation": "（尤指讲故事时）说",
+      "examples": [
+        {
+          "text": "\"I never want to see you ever again,\" he goes, and storms out the house.",
+          "translation": "“我一辈子都不想再见到你，”他说着，怒气冲冲地冲出了房子。",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": "[ + speech ]; informal"
+    },
+    {
+      "pos": "verb",
+      "section": "(WEAKEN)",
+      "number": "23",
+      "entryId": "cambridge-0",
+      "definition": "to become weak or damaged, especially from being used (too much), or to stop working",
+      "parts": [
+        {
+          "label": "",
+          "text": "to become weak or damaged, especially from being used (too much), or to stop working"
+        }
+      ],
+      "translation": "（尤指因为过度使用）变薄弱，衰退，损坏，垮掉",
+      "examples": [
+        {
+          "text": "After a gruelling six months singing on a world tour, it is hardly surprising that her voice is starting to go.",
+          "translation": "经过6个月紧张劳累的世界巡演，她的音质开始变差，这不足为奇。",
+          "selected": false
+        },
+        {
+          "text": "I really must get a new jacket - this one's starting to go at the elbows.",
+          "translation": "我真的得去买件新外套了——这一件肘部都快磨坏了。",
+          "selected": false
+        },
+        {
+          "text": "Her hearing is going, but otherwise she's remarkably fit for a 95-year-old.",
+          "translation": "她的听力开始下降，但除此以外，对于一个95岁高龄的老人来说，她还是很健康的。",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": "[ I ]"
+    },
+    {
+      "pos": "verb",
+      "section": "(NOISE)",
+      "number": "24",
+      "entryId": "cambridge-0",
+      "definition": "to produce a noise",
+      "parts": [
+        {
+          "label": "",
+          "text": "to produce a noise"
+        }
+      ],
+      "translation": "发出（声音）;响;鸣",
+      "examples": [
+        {
+          "text": "I think I heard the doorbell go (= ring) just now.",
+          "translation": "我觉得刚才听到门铃响了。",
+          "selected": false
+        },
+        {
+          "text": "I wish my computer would stop going \"beep\" whenever I do something wrong.",
+          "translation": "我希望我的电脑不要我一出错误就“嘟嘟”响。",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": "[ I or T ]"
+    },
+    {
+      "pos": "verb",
+      "section": "(BE EXPRESSED)",
+      "number": "25",
+      "entryId": "cambridge-0",
+      "definition": "to be expressed, sung, or played",
+      "parts": [
+        {
+          "label": "",
+          "text": "to be expressed, sung, or played"
+        }
+      ],
+      "translation": "用某种措词表达;（音乐）有某种调子;（以特定方式）唱",
+      "examples": [
+        {
+          "text": "I can never remember how that song goes.",
+          "translation": "我永远也记不住怎么唱那首歌。",
+          "selected": false
+        },
+        {
+          "text": "\"Doesn't it go something like this?\" said Joan, and played the first couple of bars on her guitar.",
+          "translation": "“它是不是这个调子？”琼说着，用吉他奏出开头几个小节。",
+          "selected": false
+        },
+        {
+          "text": "The story goes (= people say) (that) he was fireds after he was caught stealing company property.",
+          "translation": "据说他盗窃公司的财物被抓住后就被开除了。",
+          "selected": false
+        },
+        {
+          "text": "A headless ghost walks the castle at night - or so the story goes (= so people say).",
+          "translation": "一个无头鬼晚上在城堡中游荡——反正人们都是这样说的。",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": "[ I not continuous ]; [ + (that) ]"
+    },
+    {
+      "pos": "verb",
+      "section": "(HAPPEN)",
+      "number": "26",
+      "entryId": "cambridge-0",
+      "definition": "to happen or be found regularly or typically with each other or another",
+      "parts": [
+        {
+          "label": "",
+          "text": "to happen or be found regularly or typically with each other or another"
+        }
+      ],
+      "translation": "与（…）同时存在；与（…）相伴而生",
+      "examples": [
+        {
+          "text": "Wisdom and maturity don't necessarily go together.",
+          "translation": "智慧不在年高，年成未必有智。",
+          "selected": false
+        },
+        {
+          "text": "She knows all about the health problems that go with smoking.",
+          "translation": "抽烟引起的所有健康问题她都很清楚。",
+          "selected": false
+        },
+        {
+          "text": "Great wealth often goes hand in hand with meanness.",
+          "translation": "巨富者常悭吝。",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": "[ I usually + adv/prep ]"
+    },
+    {
+      "pos": "verb",
+      "section": "(BE SITUATED)",
+      "number": "27",
+      "entryId": "cambridge-0",
+      "definition": "to be put in a particular place, especially as the usual place",
+      "parts": [
+        {
+          "label": "",
+          "text": "to be put in a particular place, especially as the usual place"
+        }
+      ],
+      "translation": "被放置，被置于（尤指通常的位置）",
+      "examples": [
+        {
+          "text": "The sofa went against that wall before we had the radiator put in.",
+          "translation": "安装暖气片前沙发是靠着那面墙放的。",
+          "selected": false
+        },
+        {
+          "text": "I'll put it all away if you tell me where everything goes.",
+          "translation": "你告诉我所有这些东西该放哪儿，我会放好的。",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": "[ I usually + adv/prep, not continuous ]"
+    },
+    {
+      "pos": "verb",
+      "section": "(BE SOLD)",
+      "number": "28",
+      "entryId": "cambridge-0",
+      "definition": "to be sold or be available",
+      "parts": [
+        {
+          "label": "",
+          "text": "to be sold or be available"
+        }
+      ],
+      "translation": "被卖掉，被出售；现成可用",
+      "examples": [
+        {
+          "text": "The shop is having a closing-down sale - everything must go.",
+          "translation": "那家商店正举行停业甩卖——一切货物都得售完。",
+          "selected": false
+        },
+        {
+          "text": "The painting will go to the highest bidder.",
+          "translation": "这幅油画将会卖给出价最高的人。",
+          "selected": false
+        },
+        {
+          "text": "I bought some flowers that were going cheap.",
+          "translation": "我买了一些减价出售的花。",
+          "selected": false
+        },
+        {
+          "text": "\"Going... going... gone! (= Sold!)\" said the auctioneer, banging down the hammer.",
+          "translation": "“要卖出了——要卖出了——成交！”拍卖人边喊边敲下了拍卖槌。",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": "[ I ]"
+    },
+    {
+      "pos": "verb",
+      "section": "(BE ACCEPTABLE)",
+      "number": "29",
+      "entryId": "cambridge-0",
+      "definition": "to look or be acceptable or suitable",
+      "parts": [
+        {
+          "label": "",
+          "text": "to look or be acceptable or suitable"
+        }
+      ],
+      "translation": "可以接受；匹配；适合；相称",
+      "examples": [
+        {
+          "text": "That picture would go well on the wall in the living room.",
+          "translation": "那幅画挂在客厅墙上正合适。",
+          "selected": false
+        },
+        {
+          "text": "The TV would go nicely in that corner, wouldn't it?",
+          "translation": "电视放在那个角落正好，是不是？",
+          "selected": false
+        },
+        {
+          "text": "If I wear the orange hat with the blue dress, do you think it will go?",
+          "translation": "我穿那件蓝色连衣裙戴这顶橘红色的帽子，你觉得相配吗？",
+          "selected": false
+        },
+        {
+          "text": "Just remember that I'm the boss and what I say goes (= you have to accept what I say).",
+          "translation": "请记住我是老板，我说一不二。",
+          "selected": false
+        },
+        {
+          "text": "My parents don't worry too much about what I am up to, and most of the time anything goes (= I can do what I want).",
+          "translation": "我做什么我父母都不是太担心，所以大多数情况下我都能做自己想做的事。",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": "[ I not continuous ]"
+    },
+    {
+      "pos": "verb",
+      "section": "(BE KNOWN)",
+      "number": "30",
+      "entryId": "cambridge-0",
+      "definition": "to be known (by a particular name)",
+      "parts": [
+        {
+          "label": "",
+          "text": "to be known (by a particular name)"
+        }
+      ],
+      "translation": "被叫做，被称为（某个名字或名称）;名叫",
+      "examples": [
+        {
+          "text": "He had a scruffy old teddy bear that went by the name of Augustus.",
+          "translation": "他有个肮脏破旧的玩具熊，名字叫奥古斯塔斯。",
+          "selected": false
+        },
+        {
+          "text": "In Britain, this flour usually goes under the name of maize meal.",
+          "translation": "在英国，这种面粉一般被称为玉米面。",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": "[ I usually + adv/prep ]"
+    },
+    {
+      "pos": "verb",
+      "section": "(DEVELOP)",
+      "number": "31",
+      "entryId": "cambridge-0",
+      "definition": "to develop or happen",
+      "parts": [
+        {
+          "label": "",
+          "text": "to develop or happen"
+        }
+      ],
+      "translation": "进行，进展；发生",
+      "examples": [
+        {
+          "text": "\"How did the interview go?\" \"It went very well, thanks.\"",
+          "translation": "“面试进行得怎么样？”“很好，多谢。”",
+          "selected": false
+        },
+        {
+          "text": "Things have gone badly for him since his business collapsed.",
+          "translation": "他的公司倒闭后，他的生活变得一团糟。",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": "[ I usually + adv/prep ]"
+    },
+    {
+      "pos": "noun",
+      "section": "(ATTEMPT)",
+      "number": "1",
+      "entryId": "cambridge-1",
+      "definition": "an attempt to do something",
+      "parts": [
+        {
+          "label": "",
+          "text": "an attempt to do something"
+        }
+      ],
+      "translation": "尝试",
+      "examples": [
+        {
+          "text": "I've never done this before but I'll give it a go.",
+          "translation": "我以前从来没有做过，但是我会尝试一下。",
+          "selected": false
+        },
+        {
+          "text": "\"This jar is impossible to open.\" \"Here, let me have a go.\"",
+          "translation": "“这个罐子没法打开。”“来，让我试一试。”",
+          "selected": false
+        },
+        {
+          "text": "I want to have a go at finishing my essay tonight.",
+          "translation": "我想试试看今晚能不能把论文写完。",
+          "selected": false
+        },
+        {
+          "text": "We can't do the work all in one go (= all at the same time).",
+          "translation": "我们不可能一蹴而就，一下子完成工作。",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": "[ C ]"
+    },
+    {
+      "pos": "noun",
+      "section": "make a go of something",
+      "number": "2",
+      "entryId": "cambridge-1",
+      "definition": "to try to make something succeed, usually by working hard:",
+      "parts": [
+        {
+          "label": "",
+          "text": "to try to make something succeed, usually by working hard:"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "She's really making a go of her new antique shop.",
+          "translation": "她新开的古玩店经营得还真挺不错。",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "noun",
+      "section": "(OPPORTUNITY)",
+      "number": "3",
+      "entryId": "cambridge-1",
+      "definition": "an opportunity to play in a game, or to do or use something",
+      "parts": [
+        {
+          "label": "",
+          "text": "an opportunity to play in a game, or to do or use something"
+        }
+      ],
+      "translation": "（游戏等中）轮到的机会",
+      "examples": [
+        {
+          "text": "Hey, it's Ken's go now! You've just had your go.",
+          "translation": "嗨，现在轮到肯了！你刚玩过。",
+          "selected": false
+        },
+        {
+          "text": "Please can I have a go (= can I ride) on your bike?",
+          "translation": "我能骑骑你的自行车吗？",
+          "selected": false
+        },
+        {
+          "text": "I'll have a go at driving for a while if you're tired.",
+          "translation": "你要是累了，我来替你开会儿车。",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": "[ C ]"
+    },
+    {
+      "pos": "noun",
+      "section": "have a go at someone",
+      "number": "4",
+      "entryId": "cambridge-1",
+      "definition": "to criticize someone:",
+      "parts": [
+        {
+          "label": "",
+          "text": "to criticize someone:"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "My Dad's always having a go at me about getting a proper job.",
+          "translation": "我爸爸总是指责我不找个正儿八经的工作干。",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "noun",
+      "section": "(ENERGY)",
+      "number": "5",
+      "entryId": "cambridge-1",
+      "definition": "the condition of being energetic and active",
+      "parts": [
+        {
+          "label": "",
+          "text": "the condition of being energetic and active"
+        }
+      ],
+      "translation": "劲头；精力；活力",
+      "examples": [
+        {
+          "text": "You're full of go this morning.",
+          "translation": "今天早晨你精力充沛。",
+          "selected": false
+        },
+        {
+          "text": "He doesn't have much go about him, does he?",
+          "translation": "他无精打采的，不是吗？",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": "[ U ]; informal"
+    }
+  ],
+  "pronunciations": [
+    {
+      "region": "英式",
+      "value": "ɡəʊ",
+      "label": "",
+      "suffix": "",
+      "form": "go",
+      "kind": "headword",
+      "pos": "verb",
+      "edition": ""
+    },
+    {
+      "region": "美式",
+      "value": "ɡoʊ",
+      "label": "",
+      "suffix": "",
+      "form": "go",
+      "kind": "headword",
+      "pos": "verb",
+      "edition": ""
+    },
+    {
+      "region": "英式",
+      "value": "ɡəʊ",
+      "label": "",
+      "suffix": "",
+      "form": "go",
+      "kind": "headword",
+      "pos": "noun",
+      "edition": ""
+    },
+    {
+      "region": "美式",
+      "value": "ɡoʊ",
+      "label": "",
+      "suffix": "",
+      "form": "go",
+      "kind": "headword",
+      "pos": "noun",
+      "edition": ""
+    }
+  ],
+  "pronunciationGroups": [
+    {
+      "form": "go",
+      "kind": "headword",
+      "pos": "verb",
+      "edition": "",
+      "region": "英式",
+      "items": [
+        {
+          "label": "",
+          "value": "ɡəʊ",
+          "suffix": "",
+          "audioUrl": "https://dictionary.cambridge.org/media/english-chinese-simplified/uk_pron/u/ukg/ukglu/ukglutt024.mp3"
+        }
+      ]
+    },
+    {
+      "form": "go",
+      "kind": "headword",
+      "pos": "verb",
+      "edition": "",
+      "region": "美式",
+      "items": [
+        {
+          "label": "",
+          "value": "ɡoʊ",
+          "suffix": "",
+          "audioUrl": "https://dictionary.cambridge.org/media/english-chinese-simplified/us_pron/g/go_/go___/go.mp3"
+        }
+      ]
+    },
+    {
+      "form": "go",
+      "kind": "headword",
+      "pos": "noun",
+      "edition": "",
+      "region": "英式",
+      "items": [
+        {
+          "label": "",
+          "value": "ɡəʊ",
+          "suffix": "",
+          "audioUrl": "https://dictionary.cambridge.org/media/english-chinese-simplified/uk_pron/u/ukg/ukglu/ukglutt024.mp3"
+        }
+      ]
+    },
+    {
+      "form": "go",
+      "kind": "headword",
+      "pos": "noun",
+      "edition": "",
+      "region": "美式",
+      "items": [
+        {
+          "label": "",
+          "value": "ɡoʊ",
+          "suffix": "",
+          "audioUrl": "https://dictionary.cambridge.org/media/english-chinese-simplified/us_pron/g/go_/go___/go.mp3"
+        }
+      ]
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://dictionary.cambridge.org/media/english-chinese-simplified/uk_pron/u/ukg/ukglu/ukglutt024.mp3",
+      "region": "英式",
+      "form": "go",
+      "pronunciation": "ɡəʊ",
+      "pos": "verb"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/media/english-chinese-simplified/us_pron/g/go_/go___/go.mp3",
+      "region": "美式",
+      "form": "go",
+      "pronunciation": "ɡoʊ",
+      "pos": "verb"
+    }
+  ],
+  "forms": [
+    "present participle going | past tense went | past participle gone",
+    "plural goes"
+  ],
+  "phrases": [
+    "where has/have something gone?",
+    "to go",
+    "be going to do/be something",
+    "as...go",
+    "go to prove/show",
+    "make a go of something",
+    "have a go at someone"
+  ],
+  "labels": [
+    "[ I usually + adv/prep ]",
+    "figurative",
+    "[ I ]",
+    "[ + -ing verb ]",
+    "[ + to infinitive ]",
+    "polite word",
+    "[ I + adv/prep ]",
+    "[ L only + adj ]",
+    "[ I not continuous ]",
+    "[ + speech ]",
+    "informal",
+    "[ I or T ]",
+    "[ + (that) ]",
+    "[ I usually + adv/prep, not continuous ]",
+    "[ C ]",
+    "[ U ]"
+  ],
+  "references": [],
+  "rawText": "goverb uk Your browser doesn't support HTML5 audio /ɡəʊ/ us Your browser doesn't support HTML5 audio /ɡoʊ/ present participle going | past tense went | past participle gone go verb (MOVE/TRAVEL) Add to word list Add to word list A1 [ I usually + adv/prep ] to travel or move to another place 去;走 We went into the house. 我们走进了那座房子。 I went to Paris last summer. Have you ever been there? 去年夏天我去了巴黎，你去过那儿吗？ We don't go to the cinema very often these days. 近来我们不大常看电影。 Wouldn't it be quicker to go by train? 坐火车去不是更快一些吗？ Does this train go to Newcastle? 这趟火车去纽卡斯尔吗？ Where do you think you're going? Shouldn't you be at school? 这是到哪去啊？你现在应该在学校里，不是吗？ A1 [ I usually + adv/prep ] to be in the process of moving 移动;行走 Can't we go any faster? 我们能不能走得再快点儿？ We were going along at about 50 miles an hour. 我们正在以每小时50英里左右的速度行进。 to go down the road 沿着这条路走 to go up/down stairs 上／下楼梯 to go over the bridge 过桥 to go through a tunnel 穿过隧道 UK figurative I've got a tune going around/round in my head (= I am continually hearing it) and I just can't remember the name of it. 一支曲调时时在我脑海萦绕，但我就是想不起它的名字。 A1 [ I ] to move or travel somewhere in order to do something 去（做…）；去（参加）；去（从事） [ + -ing verb ] We go shopping every Friday night. 我们每周五晚上去购物。 I've never gone skiing. 我从来没去滑过雪。 They've gone for a walk, but they should be back soon. 他们去散步了，但是应该很快就会回来。 [ + to infinitive ] She went to meet Blake at the station. 她去火车站接布雷克了。 There's a good film on at the Odeon. Shall we go? 奥登影院正在放映一部好片子，我们去看吧？ where has/have something gone? said when you cannot find something: Where have my keys gone? 我的钥匙跑哪去了？ See more More examplesFewer examplesYou won't be able to go swimming tomorrow if your cold hasn't cleared up.You should change trains at Peterborough if you're going to Newcastle.We went dancing at a nightclub.I was thinking we might go on a shopping trip on Saturday.Simon and Jo have gone to visit their grandmother this weekend. go verb (LEAVE) B1 [ I ] to leave a place, especially in order to travel to somewhere else （尤指为了去别的地方）离开，离去，出发 Is it midnight already? I really must go/must be going. 都已经到半夜了？我真的得走了。 She wasn't feeling well, so she went home early. 她感到不舒服，所以提前离开回家了。 mainly UK What time does the last train to Bath go? 去巴斯的最后一趟火车什么时侯开？ I'm afraid he'll have to go (= be dismissed from his job) - he's far too inefficient to continue working for us. 恐怕他得走人了——他实在太不称职，没法继续在这儿干下去。 This carpet's terribly old and worn out - it really will have to go (= be got rid of). 这张地毯破旧不堪，磨损严重——必须得换了。 to go US If you ask for some food to go at a restaurant, you want it wrapped up so that you can take it away with you instead of eating it in the restaurant: I'd like a cheeseburger and strawberry milkshake to go, please. 我要外带一个奶酪汉堡包，一份草莓奶昔。 See more [ I ] polite word for to die 去世，离开人世 She went peacefully in her sleep. 她在睡眠中安详辞世。 More examplesFewer examplesYou can stay if you want, but I'm going to go.The next train for Manchester goes in ten minutes.Get your coat, we're going.He was here a minute ago, but he must have just gone.He was disappointed to find they'd already gone. go verb (LEAD) B1 [ I + adv/prep ] If a road, path, etc. goes in a particular direction, it leads there. 通（向）;延伸 This road goes to Birmingham. 这条路通向伯明翰。 A huge crack went from the top to the bottom of the wall. 墙上裂了一条很大的裂缝，从房顶一直延伸到地面。 [ I usually + adv/prep ] to continue for a particular length 延展，延伸（一段距离） The tree's roots go down three metres. 这棵树的根一直到地下3米。 More examplesFewer examplesTheir friendship goes back to when they were at school together.The M4 goes from London to Bristol.The tunnel goes right underneath the city.The cable went from the video into the back of the TV.The scratch goes along the entire length of the vehicle. go verb (FUTURE TIME) be going to do/be something A2 to intend to do or be something in the future: Are you going to go to Claire's party? 你打算去参加克莱尔的聚会吗？ A2 to be certain or expected to happen in the future: They're going to have a baby in the spring. 到春天他们就会有孩子了。 See more go verb (BECOME) B1 [ L only + adj ] to become 变得，变成，成为 The idea of going grey doesn't bother me, but I'd hate to go bald. 我不在乎我的头发会变灰白，但是我真的很受不了变成个秃头。 Her father's going senile/blind/deaf. 她父亲变老了／失明了／变聋了。 If anything goes wrong, you can call our emergency hotline free of charge. 如出现任何问题，你可以拨打我们的免费紧急热线。 After twelve years of Republican presidents, the US went Democratic in 1992. 在共和党人做了12年的总统后，美国在1992年进入了民主党执政的时代。 More examplesFewer examplesPaul will go mad when he finds out you've broken his watch.Because the book's so old, the pages are going yellow.The cars pull away when the lights go green.Many small businesses went broke during the recession.He goes all misty-eyed whenever he hears that song. go verb (MOVE BODY) C2 [ I usually + adv/prep ] to move a part of the body in a particular way or the way that is shown 做特定的动作 Go like this with your hand to show that you're turning left. 这样伸出手，示意你要往左转弯了。 More examplesFewer examplesCan you go like this with your tongue?The player went like this to show that his wasn't hurt.His face went like this when he tasted the soup.Go like this with your arm to stretch the muscle. go verb (OPERATE) C2 [ I ] to operate (in the right way) （正常地）运转，运行，工作 Have you any idea why this watch won't go? 你知道为什么这块手表不走了吗？ Can you help me get my car going? 你能帮我把车发动起来吗？ Our company has been going (= has been in business) for 20 years. 我们公司已经有20年的历史了。 More examplesFewer examplesMy watch stopped going after I dropped it.That radio has been going all morning.She received a grant to get her business going.I can't get the vacuum cleaner to go.The driver of the getaway car kept the engine going. go verb (TIME) B2 [ I ] If a period of time goes, it passes. （时间）过去，流逝，消逝 I had a wonderful weekend but it went very quickly. 我周末过得很愉快，可就是时间过得太快了。 Time seems to go faster as you get older. 随着年龄变大，时间也好像过得更快了。 There's only a week to go before (= until) I get my exam results. 只要再过一个星期我的考试结果就出来了。 More examplesFewer examplesThe final hour of the exam went very quickly.There are only ten days to go before Christmas.Two hours went by before they reported the child missing.Time goes quickly when you're having fun.The afternoon was going very slowly. go verb (BE) [ L only + adj ] to be or stay in a particular condition, especially an unpleasant one 处于（尤指令人不快的状况） In spite of the relief effort, thousands of people continue to go hungry. 尽管提供了救济，仍有数以千计的人继续处于饥饿状态。 Why do so many rapes go unreported? 为什么有那么多人被强奸后没有报案呢？ as...go in comparison with most other things of a particular type, especially when you do not think that type of thing is very good: It was quite a good film, as horror films go. 就恐怖片而言，这片子还算不错。 See more go to prove/show to prove that something is true: Your daughter's attitude only goes to prove how much society has changed over the last 30 years. 你女儿的态度恰恰证明了过去30年里社会的变化有多大。 See more go verb (START) [ I ] to start doing or using something 开始 I'll just connect the printer to the computer and then we'll be ready to go. 我只要把打印机和电脑连接上，我们就可以开始了。 go verb (PLAY GAME) [ I ] to use your opportunity to play in a game （游戏中轮到的时候）去（玩） It's your turn to go now. 轮到你来玩了。 go verb (DIVIDE) [ I not continuous ] (of a number) to fit into another number especially resulting in a whole number 除;（尤指）整除 5 into 11 won't go. 5除11除不尽。 3 goes into 15 fives times. 3除15等于5。 go verb (SAY) [ + speech ] informal to say, especially when a story is being told （尤指讲故事时）说 \"I never want to see you ever again,\" he goes, and storms out the house. “我一辈子都不想再见到你，”他说着，怒气冲冲地冲出了房子。 go verb (WEAKEN) [ I ] to become weak or damaged, especially from being used (too much), or to stop working （尤指因为过度使用）变薄弱，衰退，损坏，垮掉 After a gruelling six months singing on a world tour, it is hardly surprising that her voice is starting to go. 经过6个月紧张劳累的世界巡演，她的音质开始变差，这不足为奇。 I really must get a new jacket - this one's starting to go at the elbows. 我真的得去买件新外套了——这一件肘部都快磨坏了。 Her hearing is going, but otherwise she's remarkably fit for a 95-year-old. 她的听力开始下降，但除此以外，对于一个95岁高龄的老人来说，她还是很健康的。 go verb (NOISE) C2 [ I or T ] to produce a noise 发出（声音）;响;鸣 I think I heard the doorbell go (= ring) just now. 我觉得刚才听到门铃响了。 I wish my computer would stop going \"beep\" whenever I do something wrong. 我希望我的电脑不要我一出错误就“嘟嘟”响。 go verb (BE EXPRESSED) B2 [ I not continuous ] to be expressed, sung, or played 用某种措词表达;（音乐）有某种调子;（以特定方式）唱 I can never remember how that song goes. 我永远也记不住怎么唱那首歌。 \"Doesn't it go something like this?\" said Joan, and played the first couple of bars on her guitar. “它是不是这个调子？”琼说着，用吉他奏出开头几个小节。 [ + (that) ] The story goes (= people say) (that) he was fireds after he was caught stealing company property. 据说他盗窃公司的财物被抓住后就被开除了。 A headless ghost walks the castle at night - or so the story goes (= so people say). 一个无头鬼晚上在城堡中游荡——反正人们都是这样说的。 go verb (HAPPEN) [ I usually + adv/prep ] to happen or be found regularly or typically with each other or another 与（…）同时存在；与（…）相伴而生 Wisdom and maturity don't necessarily go together. 智慧不在年高，年成未必有智。 She knows all about the health problems that go with smoking. 抽烟引起的所有健康问题她都很清楚。 Great wealth often goes hand in hand with meanness. 巨富者常悭吝。 go verb (BE SITUATED) [ I usually + adv/prep, not continuous ] to be put in a particular place, especially as the usual place 被放置，被置于（尤指通常的位置） The sofa went against that wall before we had the radiator put in. 安装暖气片前沙发是靠着那面墙放的。 I'll put it all away if you tell me where everything goes. 你告诉我所有这些东西该放哪儿，我会放好的。 go verb (BE SOLD) [ I ] to be sold or be available 被卖掉，被出售；现成可用 The shop is having a closing-down sale - everything must go. 那家商店正举行停业甩卖——一切货物都得售完。 The painting will go to the highest bidder. 这幅油画将会卖给出价最高的人。 I bought some flowers that were going cheap. 我买了一些减价出售的花。 \"Going... going... gone! (= Sold!)\" said the auctioneer, banging down the hammer. “要卖出了——要卖出了——成交！”拍卖人边喊边敲下了拍卖槌。 go verb (BE ACCEPTABLE) B1 [ I not continuous ] to look or be acceptable or suitable 可以接受；匹配；适合；相称 That picture would go well on the wall in the living room. 那幅画挂在客厅墙上正合适。 The TV would go nicely in that corner, wouldn't it? 电视放在那个角落正好，是不是？ If I wear the orange hat with the blue dress, do you think it will go? 我穿那件蓝色连衣裙戴这顶橘红色的帽子，你觉得相配吗？ Just remember that I'm the boss and what I say goes (= you have to accept what I say). 请记住我是老板，我说一不二。 My parents don't worry too much about what I am up to, and most of the time anything goes (= I can do what I want). 我做什么我父母都不是太担心，所以大多数情况下我都能做自己想做的事。 go verb (BE KNOWN) [ I usually + adv/prep ] to be known (by a particular name) 被叫做，被称为（某个名字或名称）;名叫 He had a scruffy old teddy bear that went by the name of Augustus. 他有个肮脏破旧的玩具熊，名字叫奥古斯塔斯。 In Britain, this flour usually goes under the name of maize meal. 在英国，这种面粉一般被称为玉米面。 go verb (DEVELOP) B1 [ I usually + adv/prep ] to develop or happen 进行，进展；发生 \"How did the interview go?\" \"It went very well, thanks.\" “面试进行得怎么样？”“很好，多谢。” Things have gone badly for him since his business collapsed. 他的公司倒闭后，他的生活变得一团糟。 More examplesFewer examplesEverything was going smoothly until suddenly disaster struck.\"I hear things aren't going too well at work.\" \"You don't know the half of it!\"Everything went swimmingly until Peter started talking about money.The party went like clockwork.Did it all go according to plan? Grammar Been or gone?We often use been to, instead of gone to, when we refer to completed visits to a place: … Come or go?We use come to describe movement between the speaker and listener, and movement from another place to the place where the speaker or listener is. We usually use go to talk about movement from where the speaker or listener is to another place. … GoWe use go to refer to movement, most commonly away from the speaker or listener to another place. We normally use go without an object: … Go + -ingWe use go + -ing form when we speak about general activities that involve movement: … Go + complementWe use go + an adjective (complement) to describe changes to the state of things: … Go and, come and …In speaking, we often use and after go and come before the base form of verbs like ask, buy, check, collect, do, find, get: … Going toWe use the present continuous form of the verb go + preposition to + noun phrase to talk about movement in relation to a place or a person in the present: … Going to: present continuousWe use the present continuous form of the verb go + preposition to + noun phrase to talk about movement in relation to a place or a person in the present: … Going to: futureWe can use a present form of be + going to + the base form of a main verb to talk about the future. We use it for plans and intentions, predictions and commands: … Was going toWe use a past form of be + going to when we talk about a plan we had that may have changed. … Get or go?Get and go have similar meanings, when talking about travel or motion. When we use get, we emphasise arrival: … Future: be going to (I am going to work)We use be going to + the base form of the verb: … Be going to: formWe use be going to + the base form of the verb: … Be going to: usesBe going to is commonly used in informal styles. … Gonna (informal contexts)We use gonna /gənə/ instead of going to in informal contexts, especially in speaking and in song lyrics. We write gonna to show how to pronounce it: … Be going to or will?Will is often used in a similar way to be going to. Will is used when we are talking about something with absolute certainty. Be going to is used when we want to emphasise our decision or the evidence in the present: … Idioms go about your business go and... go for it go it alone have something going for you not go there the same/that goes for someone/something what are you going to do?Phrasal verbs go about something go after someone go after something go against someone go against something/someone go ahead go along go along with something/someone go around go at someone More phrasal verbs go at something go away go back go back on something go back to someone go back to something go by go by something go down go down go down on someone go down with something go for someone go for something go in go in for something go in on something go into something go off go off someone/something go off with someone go off with something go on go on something go out go out for something go out to someone go over go over something go over to something go round go round (somewhere) go round something go through go through something go through with something go to someone go together go under go up go up to something go with something go with someone go with someone/something go without (something)\n\ngonoun uk Your browser doesn't support HTML5 audio /ɡəʊ/ us Your browser doesn't support HTML5 audio /ɡoʊ/ plural goes go noun (ATTEMPT) B2 [ C ] (US also try) an attempt to do something 尝试 I've never done this before but I'll give it a go. 我以前从来没有做过，但是我会尝试一下。 \"This jar is impossible to open.\" \"Here, let me have a go.\" “这个罐子没法打开。”“来，让我试一试。” I want to have a go at finishing my essay tonight. 我想试试看今晚能不能把论文写完。 We can't do the work all in one go (= all at the same time). 我们不可能一蹴而就，一下子完成工作。 make a go of something mainly UK C2 to try to make something succeed, usually by working hard: She's really making a go of her new antique shop. 她新开的古玩店经营得还真挺不错。 See more More examplesFewer examplesI can't do the crossword. Do you want to have a go?After several goes at the puzzle, she eventually gave up.They each had a go at lifting the box, but neither of them could move it.If you fail the test this time, you can have another go at it in August.I don't know if I can fix the taps but I'll have a go. go noun (OPPORTUNITY) B1 [ C ] (US usually turn) an opportunity to play in a game, or to do or use something （游戏等中）轮到的机会 Hey, it's Ken's go now! You've just had your go. 嗨，现在轮到肯了！你刚玩过。 Please can I have a go (= can I ride) on your bike? 我能骑骑你的自行车吗？ I'll have a go at driving for a while if you're tired. 你要是累了，我来替你开会儿车。 More examplesFewer examplesIs it my go yet?May I have a go on your computer?We can have two goes each.You have to miss a go if you land on that square.Whose go is it? go noun (CRITICIZE) have a go at someone UK to criticize someone: My Dad's always having a go at me about getting a proper job. 我爸爸总是指责我不找个正儿八经的工作干。 See more go noun (ENERGY) [ U ] UK the condition of being energetic and active 劲头；精力；活力 You're full of go this morning. 今天早晨你精力充沛。 He doesn't have much go about him, does he? 他无精打采的，不是吗？ See also get-up-and-go informal Idioms be (a) no go on the go",
+  "warnings": [],
+  "snapshot": []
+}

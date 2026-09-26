@@ -1,0 +1,253 @@
+{
+  "parserVersion": 3,
+  "source": "mw",
+  "headword": "navigation",
+  "url": "file:///C:/Users/taos6/AppData/Local/Temp/worddesk-parser-f5KXnQ/navigation-mw.html",
+  "capturedAt": "2026-09-20T08:44:17.173Z",
+  "senses": [
+    {
+      "pos": "noun",
+      "section": "主词典 1",
+      "entryId": "dictionary-entry-1",
+      "number": "1",
+      "definition": "the act or practice of navigating",
+      "parts": [
+        {
+          "label": "",
+          "text": "the act or practice of navigating"
+        }
+      ],
+      "translation": "",
+      "examples": [],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "noun",
+      "section": "主词典 2",
+      "entryId": "dictionary-entry-1",
+      "number": "2",
+      "definition": "the science of getting vehicles from place to place\nespecially : the method of determining position, course, and distance traveled",
+      "parts": [
+        {
+          "label": "",
+          "text": "the science of getting vehicles from place to place"
+        },
+        {
+          "label": "especially",
+          "text": "the method of determining position, course, and distance traveled"
+        }
+      ],
+      "translation": "",
+      "examples": [],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "noun",
+      "section": "主词典 3",
+      "entryId": "dictionary-entry-1",
+      "number": "3",
+      "definition": "ship traffic or commerce",
+      "parts": [
+        {
+          "label": "",
+          "text": "ship traffic or commerce"
+        }
+      ],
+      "translation": "",
+      "examples": [],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "noun",
+      "section": "儿童词典 1",
+      "entryId": "elementary-entry-1",
+      "number": "1",
+      "definition": "the act or practice of navigating",
+      "parts": [
+        {
+          "label": "",
+          "text": "the act or practice of navigating"
+        }
+      ],
+      "translation": "",
+      "examples": [],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "noun",
+      "section": "儿童词典 2",
+      "entryId": "elementary-entry-1",
+      "number": "2",
+      "definition": "the science of getting ships, aircraft, or spacecraft from place to place\nespecially : the method of figuring out position, course, and distance traveled",
+      "parts": [
+        {
+          "label": "",
+          "text": "the science of getting ships, aircraft, or spacecraft from place to place"
+        },
+        {
+          "label": "especially",
+          "text": "the method of figuring out position, course, and distance traveled"
+        }
+      ],
+      "translation": "",
+      "examples": [],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    }
+  ],
+  "pronunciations": [
+    {
+      "region": "MW",
+      "value": "ˌna-və-ˈgā-shən",
+      "label": "",
+      "suffix": "",
+      "form": "navigation",
+      "kind": "headword",
+      "pos": "noun",
+      "edition": "主词典"
+    },
+    {
+      "region": "MW",
+      "value": "ˌna-və-ˈgā-sh(ə-)nəl",
+      "label": "",
+      "suffix": "",
+      "form": "navigational",
+      "kind": "derived",
+      "pos": "adjective",
+      "edition": "主词典"
+    },
+    {
+      "region": "MW",
+      "value": "ˌnav-ə-ˈgā-shən",
+      "label": "",
+      "suffix": "",
+      "form": "navigation",
+      "kind": "headword",
+      "pos": "noun",
+      "edition": "儿童词典"
+    },
+    {
+      "region": "MW",
+      "value": "-shnəl",
+      "label": "",
+      "suffix": "",
+      "form": "navigational",
+      "kind": "derived",
+      "pos": "adjective",
+      "edition": "儿童词典"
+    },
+    {
+      "region": "MW",
+      "value": "-shən-ᵊl",
+      "label": "",
+      "suffix": "",
+      "form": "navigational",
+      "kind": "derived",
+      "pos": "adjective",
+      "edition": "儿童词典"
+    }
+  ],
+  "pronunciationGroups": [
+    {
+      "form": "navigation",
+      "kind": "headword",
+      "pos": "noun",
+      "edition": "主词典",
+      "region": "MW",
+      "items": [
+        {
+          "label": "",
+          "value": "ˌna-və-ˈgā-shən",
+          "suffix": "",
+          "audioUrl": "https://media.merriam-webster.com/audio/prons/en/us/mp3/n/naviga05.mp3"
+        }
+      ]
+    },
+    {
+      "form": "navigational",
+      "kind": "derived",
+      "pos": "adjective",
+      "edition": "主词典",
+      "region": "MW",
+      "items": [
+        {
+          "label": "",
+          "value": "ˌna-və-ˈgā-sh(ə-)nəl",
+          "suffix": "",
+          "audioUrl": "https://media.merriam-webster.com/audio/prons/en/us/mp3/n/naviga06.mp3"
+        }
+      ]
+    },
+    {
+      "form": "navigation",
+      "kind": "headword",
+      "pos": "noun",
+      "edition": "儿童词典",
+      "region": "MW",
+      "items": [
+        {
+          "label": "",
+          "value": "ˌnav-ə-ˈgā-shən",
+          "suffix": "",
+          "audioUrl": "https://media.merriam-webster.com/audio/prons/en/us/mp3/n/naviga05.mp3"
+        }
+      ]
+    },
+    {
+      "form": "navigational",
+      "kind": "derived",
+      "pos": "adjective",
+      "edition": "儿童词典",
+      "region": "MW",
+      "items": [
+        {
+          "label": "",
+          "value": "-shnəl",
+          "suffix": "",
+          "audioUrl": "https://media.merriam-webster.com/audio/prons/en/us/mp3/n/naviga06.mp3"
+        },
+        {
+          "label": "",
+          "value": "-shən-ᵊl",
+          "suffix": "",
+          "audioUrl": null
+        }
+      ]
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/n/naviga05.mp3",
+      "region": "MW",
+      "form": "navigation",
+      "pronunciation": "ˌna-və-ˈgā-shən",
+      "pos": "noun"
+    },
+    {
+      "url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/n/naviga06.mp3",
+      "region": "MW",
+      "form": "navigational",
+      "pronunciation": "ˌna-və-ˈgā-sh(ə-)nəl",
+      "pos": "adjective"
+    }
+  ],
+  "forms": [],
+  "phrases": [
+    "celestial navigation",
+    "inertial navigation"
+  ],
+  "labels": [],
+  "references": [],
+  "rawText": "navigation noun nav·​i·​ga·​tion ˌna-və-ˈgā-shən How to pronounce navigation (audio) Simple Definition A Simple Definition is available from our Learner's Dictionary to help you understand the meaning faster. 1 : the act or practice of navigating Take our 3 question quiz on navigation 2 : the science of getting vehicles from place to place especially : the method of determining position, course, and distance traveled 3 : ship traffic or commerce navigational ˌna-və-ˈgā-sh(ə-)nəl How to pronounce navigation (audio) adjective navigationally adverb\n\nnavigation noun nav·​i·​ga·​tion ˌnav-ə-ˈgā-shən How to pronounce navigation (audio) 1 : the act or practice of navigating 2 : the science of getting ships, aircraft, or spacecraft from place to place especially : the method of figuring out position, course, and distance traveled navigational -shnəl How to pronounce navigation (audio) -shən-ᵊl adjective",
+  "warnings": [],
+  "snapshot": []
+}

@@ -1,0 +1,3767 @@
+{
+  "parserVersion": 3,
+  "source": "mw",
+  "headword": "go",
+  "url": "file:///C:/Users/taos6/AppData/Local/Temp/worddesk-parser-f5KXnQ/go-mw.html",
+  "capturedAt": "2026-09-20T08:44:17.579Z",
+  "senses": [
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 1a",
+      "entryId": "dictionary-entry-1",
+      "number": "1a",
+      "definition": "to move or travel in a particular way or direction or for a particular distance",
+      "parts": [
+        {
+          "label": "",
+          "text": "to move or travel in a particular way or direction or for a particular distance"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "You need to go slow.",
+          "translation": "",
+          "selected": false
+        },
+        {
+          "text": "went by train",
+          "translation": "",
+          "selected": false
+        },
+        {
+          "text": "Go straight at the intersection.",
+          "translation": "",
+          "selected": false
+        },
+        {
+          "text": "went a long way to see them",
+          "translation": "",
+          "selected": false
+        },
+        {
+          "text": "He'll go far in life. He's going places. [=he'll be successful]",
+          "translation": "",
+          "selected": false
+        },
+        {
+          "text": "We've done a lot, but we still have a long way to go. [=we have a lot more to do]",
+          "translation": "",
+          "selected": false
+        },
+        {
+          "text": "These changes will go a long way toward fixing the problem.",
+          "translation": "",
+          "selected": false
+        },
+        {
+          "text": "Now that phase one is done, where do we go from here? [=what do we do now?]",
+          "translation": "",
+          "selected": false
+        },
+        {
+          "text": "Their relationship doesn't seem to be going anywhere. [=is not progressing]",
+          "translation": "",
+          "selected": false
+        },
+        {
+          "text": "This time you've gone too far! [=you've done something that cannot be allowed]",
+          "translation": "",
+          "selected": false
+        },
+        {
+          "text": "It's raining. There goes our picnic. [=our picnic is no longer possible]",
+          "translation": "",
+          "selected": false
+        },
+        {
+          "text": "We'll use this procedure going forward. [=from now on]",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [
+        "see also go down, go up",
+        "compare stop"
+      ],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 1b",
+      "entryId": "dictionary-entry-1",
+      "number": "1b",
+      "definition": "to move or travel to a place especially for a particular purpose",
+      "parts": [
+        {
+          "label": "",
+          "text": "to move or travel to a place especially for a particular purpose"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "goes to the office every morning",
+          "translation": "",
+          "selected": false
+        },
+        {
+          "text": "went to a movie",
+          "translation": "",
+          "selected": false
+        },
+        {
+          "text": "went to the gas station before heading home",
+          "translation": "",
+          "selected": false
+        },
+        {
+          "text": "I may go to see them.",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 1c",
+      "entryId": "dictionary-entry-1",
+      "number": "1c",
+      "definition": "to travel to and stay in a place for a period of time",
+      "parts": [
+        {
+          "label": "",
+          "text": "to travel to and stay in a place for a period of time"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "went to Paris for a month",
+          "translation": "",
+          "selected": false
+        },
+        {
+          "text": "plan to go to their beach house for the summer",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 1d",
+      "entryId": "dictionary-entry-1",
+      "number": "1d",
+      "definition": "to do something that involves or implies moving or traveling to a place",
+      "parts": [
+        {
+          "label": "",
+          "text": "to do something that involves or implies moving or traveling to a place"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "They went running when they heard the noise.",
+          "translation": "",
+          "selected": false
+        },
+        {
+          "text": "go for a swim",
+          "translation": "",
+          "selected": false
+        },
+        {
+          "text": "going on vacation",
+          "translation": "",
+          "selected": false
+        },
+        {
+          "text": "went on a crime spree",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 2a",
+      "entryId": "dictionary-entry-1",
+      "number": "2a",
+      "definition": "to move out of or away from a place expressed or implied : leave, depart",
+      "parts": [
+        {
+          "label": "",
+          "text": "to move out of or away from a place expressed or implied : leave, depart"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "went from school to the party",
+          "translation": "",
+          "selected": false
+        },
+        {
+          "text": "going away for vacation",
+          "translation": "",
+          "selected": false
+        },
+        {
+          "text": "It's late. We need to go.",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 2b",
+      "entryId": "dictionary-entry-1",
+      "number": "2b",
+      "definition": "to leave a job, position, etc.",
+      "parts": [
+        {
+          "label": "",
+          "text": "to leave a job, position, etc."
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "After 30 years at the company, she was ready to go.",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 3a",
+      "entryId": "dictionary-entry-1",
+      "number": "3a",
+      "definition": "to take a certain course or follow a certain procedure",
+      "parts": [
+        {
+          "label": "",
+          "text": "to take a certain course or follow a certain procedure"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "Reports go through channels to the president.",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 3b",
+      "entryId": "dictionary-entry-1",
+      "number": "3b",
+      "definition": "to pass by means of a process like journeying",
+      "parts": [
+        {
+          "label": "",
+          "text": "to pass by means of a process like journeying"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "The message went by email.",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 3c",
+      "entryId": "dictionary-entry-1",
+      "number": "3c",
+      "definition": "to proceed without delay and often in a thoughtless or reckless manner",
+      "parts": [
+        {
+          "label": "",
+          "text": "to proceed without delay and often in a thoughtless or reckless manner"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "Why did you go and spoil it?",
+          "translation": "",
+          "selected": false
+        },
+        {
+          "text": "go jump in a lake",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 3d(1)",
+      "entryId": "dictionary-entry-1",
+      "number": "3d(1)",
+      "definition": "to extend from point to point or in a certain direction",
+      "parts": [
+        {
+          "label": "",
+          "text": "to extend from point to point or in a certain direction"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "The road goes to the lake.",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 3d(2)",
+      "entryId": "dictionary-entry-1",
+      "number": "3d(2)",
+      "definition": "to give access : lead",
+      "parts": [
+        {
+          "label": "",
+          "text": "to give access : lead"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "That door goes to the cellar.",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 4",
+      "entryId": "dictionary-entry-1",
+      "number": "4",
+      "definition": "walk",
+      "parts": [
+        {
+          "label": "",
+          "text": "walk"
+        }
+      ],
+      "translation": "",
+      "examples": [],
+      "references": [],
+      "selected": false,
+      "labels": "obsolete"
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 5",
+      "entryId": "dictionary-entry-1",
+      "number": "5",
+      "definition": "to be habitually in a certain state or condition",
+      "parts": [
+        {
+          "label": "",
+          "text": "to be habitually in a certain state or condition"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "goes barefoot in the summer",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 6a",
+      "entryId": "dictionary-entry-1",
+      "number": "6a",
+      "definition": "to become lost, consumed, or spent",
+      "parts": [
+        {
+          "label": "",
+          "text": "to become lost, consumed, or spent"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "I don't know where the money goes.",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 6b",
+      "entryId": "dictionary-entry-1",
+      "number": "6b",
+      "definition": "die",
+      "parts": [
+        {
+          "label": "",
+          "text": "die"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "We all have to go sometime.",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 6c",
+      "entryId": "dictionary-entry-1",
+      "number": "6c",
+      "definition": "to slip away : elapse",
+      "parts": [
+        {
+          "label": "",
+          "text": "to slip away : elapse"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "The evening went quickly.",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 6d",
+      "entryId": "dictionary-entry-1",
+      "number": "6d",
+      "definition": "to come to be given up or discarded",
+      "parts": [
+        {
+          "label": "",
+          "text": "to come to be given up or discarded"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "decided to let the matter go",
+          "translation": "",
+          "selected": false
+        },
+        {
+          "text": "This clutter has to go.",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 6e(1)",
+      "entryId": "dictionary-entry-1",
+      "number": "6e(1)",
+      "definition": "to pass by sale",
+      "parts": [
+        {
+          "label": "",
+          "text": "to pass by sale"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "went for a good price",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 6e(2)",
+      "entryId": "dictionary-entry-1",
+      "number": "6e(2)",
+      "definition": "to be willing to pay",
+      "parts": [
+        {
+          "label": "",
+          "text": "to be willing to pay"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "I'll go as high as $100.",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 6f",
+      "entryId": "dictionary-entry-1",
+      "number": "6f",
+      "definition": "to become impaired or weakened",
+      "parts": [
+        {
+          "label": "",
+          "text": "to become impaired or weakened"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "His hearing is starting to go",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 6g",
+      "entryId": "dictionary-entry-1",
+      "number": "6g",
+      "definition": "to give way especially under great force or pressure : break",
+      "parts": [
+        {
+          "label": "",
+          "text": "to give way especially under great force or pressure : break"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "The roof went under the weight of the snow.",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 7a",
+      "entryId": "dictionary-entry-1",
+      "number": "7a",
+      "definition": "to happen in a specified manner : fare",
+      "parts": [
+        {
+          "label": "",
+          "text": "to happen in a specified manner : fare"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "Everything was going well till now.",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 7b",
+      "entryId": "dictionary-entry-1",
+      "number": "7b",
+      "definition": "to be in general or on an average",
+      "parts": [
+        {
+          "label": "",
+          "text": "to be in general or on an average"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "cheap, as yachts go",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 7c",
+      "entryId": "dictionary-entry-1",
+      "number": "7c",
+      "definition": "to be or become especially as the result of a contest, election, decision, etc.",
+      "parts": [
+        {
+          "label": "",
+          "text": "to be or become especially as the result of a contest, election, decision, etc."
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "The election went in her favor.",
+          "translation": "",
+          "selected": false
+        },
+        {
+          "text": "The verdict went against them.",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 7d",
+      "entryId": "dictionary-entry-1",
+      "number": "7d",
+      "definition": "to turn out in a particular way",
+      "parts": [
+        {
+          "label": "",
+          "text": "to turn out in a particular way"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "The party went as planned.",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 8a",
+      "entryId": "dictionary-entry-1",
+      "number": "8a",
+      "definition": "to apply oneself",
+      "parts": [
+        {
+          "label": "",
+          "text": "to apply oneself"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "went to work on the problem",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 8b",
+      "entryId": "dictionary-entry-1",
+      "number": "8b",
+      "definition": "to put or subject oneself",
+      "parts": [
+        {
+          "label": "",
+          "text": "to put or subject oneself"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "Don't go to any trouble/expense.",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 8c",
+      "entryId": "dictionary-entry-1",
+      "number": "8c",
+      "definition": "intend",
+      "parts": [
+        {
+          "label": "",
+          "text": "intend"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "I didn't go to do it.",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": "chiefly Southern US and Midland US"
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 9a",
+      "entryId": "dictionary-entry-1",
+      "number": "9a",
+      "definition": "to have recourse to another for corroboration, vindication, or decision : resort",
+      "parts": [
+        {
+          "label": "",
+          "text": "to have recourse to another for corroboration, vindication, or decision : resort"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "went to court to recover damages",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 9b",
+      "entryId": "dictionary-entry-1",
+      "number": "9b",
+      "definition": "to act in agreement or cooperation",
+      "parts": [
+        {
+          "label": "",
+          "text": "to act in agreement or cooperation"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "… the echo of my girlfriend's voice comes into my head, saying, \"Whatever happens, just go with it.\"",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 10a",
+      "entryId": "dictionary-entry-1",
+      "number": "10a",
+      "definition": "to begin an action or motion",
+      "parts": [
+        {
+          "label": "",
+          "text": "to begin an action or motion"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "Here goes!",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 10b",
+      "entryId": "dictionary-entry-1",
+      "number": "10b",
+      "definition": "to maintain or perform a certain action or motion",
+      "parts": [
+        {
+          "label": "",
+          "text": "to maintain or perform a certain action or motion"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "still going strong",
+          "translation": "",
+          "selected": false
+        },
+        {
+          "text": "Can you go like this with your eyebrows? [=can you move your eyebrows like this?]",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 10c",
+      "entryId": "dictionary-entry-1",
+      "number": "10c",
+      "definition": "to function in the proper or expected manner : run",
+      "parts": [
+        {
+          "label": "",
+          "text": "to function in the proper or expected manner : run"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "I can't get the car to go.",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 11a",
+      "entryId": "dictionary-entry-1",
+      "number": "11a",
+      "definition": "to come to be determined",
+      "parts": [
+        {
+          "label": "",
+          "text": "to come to be determined"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "… hanging and wiving goes by destiny.",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 11b",
+      "entryId": "dictionary-entry-1",
+      "number": "11b",
+      "definition": "to come to be applied or appropriated",
+      "parts": [
+        {
+          "label": "",
+          "text": "to come to be applied or appropriated"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "All proceeds go to charity.",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 11c",
+      "entryId": "dictionary-entry-1",
+      "number": "11c",
+      "definition": "to pass by award, assignment, or lot",
+      "parts": [
+        {
+          "label": "",
+          "text": "to pass by award, assignment, or lot"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "The prize went to a sophomore.",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 11d(1)",
+      "entryId": "dictionary-entry-1",
+      "number": "11d(1)",
+      "definition": "to contribute to an end or result",
+      "parts": [
+        {
+          "label": "",
+          "text": "to contribute to an end or result"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "qualities that go to make a hero",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 11d(2)",
+      "entryId": "dictionary-entry-1",
+      "number": "11d(2)",
+      "definition": "to be of advantage",
+      "parts": [
+        {
+          "label": "",
+          "text": "to be of advantage"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "has a lot going for her",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 12",
+      "entryId": "dictionary-entry-1",
+      "number": "12",
+      "definition": "to be about, intending, or expecting something",
+      "parts": [
+        {
+          "label": "",
+          "text": "to be about, intending, or expecting something"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "is going to leave town",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 13a",
+      "entryId": "dictionary-entry-1",
+      "number": "13a",
+      "definition": "extend",
+      "parts": [
+        {
+          "label": "",
+          "text": "extend"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "His knowledge fails to go very deep.",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 13b",
+      "entryId": "dictionary-entry-1",
+      "number": "13b",
+      "definition": "to come or arrive at a certain state or condition",
+      "parts": [
+        {
+          "label": "",
+          "text": "to come or arrive at a certain state or condition"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "go to sleep",
+          "translation": "",
+          "selected": false
+        },
+        {
+          "text": "\" … I finally went to pieces and couldn't stop crying for two hours. … \"",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [
+        "see also go into sense 2"
+      ],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 13c",
+      "entryId": "dictionary-entry-1",
+      "number": "13c",
+      "definition": "to come to be : become",
+      "parts": [
+        {
+          "label": "",
+          "text": "to come to be : become"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "The tire went flat.",
+          "translation": "",
+          "selected": false
+        },
+        {
+          "text": "a hometown kid gone Hollywood",
+          "translation": "",
+          "selected": false
+        },
+        {
+          "text": "go condo",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 13d",
+      "entryId": "dictionary-entry-1",
+      "number": "13d",
+      "definition": "to undergo a change",
+      "parts": [
+        {
+          "label": "",
+          "text": "to undergo a change"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "leaves going from green to red",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 14a",
+      "entryId": "dictionary-entry-1",
+      "number": "14a",
+      "definition": "to be in phrasing or expression : read",
+      "parts": [
+        {
+          "label": "",
+          "text": "to be in phrasing or expression : read"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "as the story goes",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 14b",
+      "entryId": "dictionary-entry-1",
+      "number": "14b",
+      "definition": "to be capable of being sung or played",
+      "parts": [
+        {
+          "label": "",
+          "text": "to be capable of being sung or played"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "a tune that goes like this",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 15",
+      "entryId": "dictionary-entry-1",
+      "number": "15",
+      "definition": "to be compatible, suitable, or becoming : harmonize",
+      "parts": [
+        {
+          "label": "",
+          "text": "to be compatible, suitable, or becoming : harmonize"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "That tie goes with his suit.",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 16a",
+      "entryId": "dictionary-entry-1",
+      "number": "16a",
+      "definition": "to be capable of passing, extending, or being contained or inserted",
+      "parts": [
+        {
+          "label": "",
+          "text": "to be capable of passing, extending, or being contained or inserted"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "Will these clothes go in your suitcase?",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 16b",
+      "entryId": "dictionary-entry-1",
+      "number": "16b",
+      "definition": "to have a usual or proper place or position : belong",
+      "parts": [
+        {
+          "label": "",
+          "text": "to have a usual or proper place or position : belong"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "These books go on the top shelf.",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 17",
+      "entryId": "dictionary-entry-1",
+      "number": "17",
+      "definition": "to have a tendency : conduce",
+      "parts": [
+        {
+          "label": "",
+          "text": "to have a tendency : conduce"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "it goes to show",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 18a",
+      "entryId": "dictionary-entry-1",
+      "number": "18a",
+      "definition": "to carry authority",
+      "parts": [
+        {
+          "label": "",
+          "text": "to carry authority"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "What she says goes.",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 18b",
+      "entryId": "dictionary-entry-1",
+      "number": "18b",
+      "definition": "to be acceptable, satisfactory, or adequate",
+      "parts": [
+        {
+          "label": "",
+          "text": "to be acceptable, satisfactory, or adequate"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "Anything goes around here",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "intransitive verb",
+      "section": "主词典 19",
+      "entryId": "dictionary-entry-1",
+      "number": "19",
+      "definition": "to empty the bladder or bowels",
+      "parts": [
+        {
+          "label": "",
+          "text": "to empty the bladder or bowels"
+        }
+      ],
+      "translation": "",
+      "examples": [],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "transitive verb",
+      "section": "主词典 1",
+      "entryId": "dictionary-entry-1",
+      "number": "1",
+      "definition": "to proceed along or according to : follow",
+      "parts": [
+        {
+          "label": "",
+          "text": "to proceed along or according to : follow"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "if I were going his way",
+          "translation": "",
+          "selected": false
+        },
+        {
+          "text": "went the conventional route",
+          "translation": "",
+          "selected": false
+        },
+        {
+          "text": "He has always gone his own way. [=done what he wants to do instead of what most people do]",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "transitive verb",
+      "section": "主词典 2",
+      "entryId": "dictionary-entry-1",
+      "number": "2",
+      "definition": "to travel through or along : traverse",
+      "parts": [
+        {
+          "label": "",
+          "text": "to travel through or along : traverse"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "went the length of the street",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "transitive verb",
+      "section": "主词典 3a",
+      "entryId": "dictionary-entry-1",
+      "number": "3a",
+      "definition": "to make a wager of : bet",
+      "parts": [
+        {
+          "label": "",
+          "text": "to make a wager of : bet"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "go a dollar on the outcome",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "transitive verb",
+      "section": "主词典 3b",
+      "entryId": "dictionary-entry-1",
+      "number": "3b",
+      "definition": "to make an offer of : bid",
+      "parts": [
+        {
+          "label": "",
+          "text": "to make an offer of : bid"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "willing to go $50 for the clock",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "transitive verb",
+      "section": "主词典 4a",
+      "entryId": "dictionary-entry-1",
+      "number": "4a",
+      "definition": "to assume the function or obligation of",
+      "parts": [
+        {
+          "label": "",
+          "text": "to assume the function or obligation of"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "promised to go bail for his friend",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "transitive verb",
+      "section": "主词典 4b",
+      "entryId": "dictionary-entry-1",
+      "number": "4b",
+      "definition": "to participate to the extent of",
+      "parts": [
+        {
+          "label": "",
+          "text": "to participate to the extent of"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "decided to go halves on the winnings",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "transitive verb",
+      "section": "主词典 5",
+      "entryId": "dictionary-entry-1",
+      "number": "5",
+      "definition": "yield, weigh",
+      "parts": [
+        {
+          "label": "",
+          "text": "yield, weigh"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "This fish goes ten pounds.",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "transitive verb",
+      "section": "主词典 6a",
+      "entryId": "dictionary-entry-1",
+      "number": "6a",
+      "definition": "to put up with : tolerate",
+      "parts": [
+        {
+          "label": "",
+          "text": "to put up with : tolerate"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "couldn't go the noise",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "transitive verb",
+      "section": "主词典 6b",
+      "entryId": "dictionary-entry-1",
+      "number": "6b",
+      "definition": "afford",
+      "parts": [
+        {
+          "label": "",
+          "text": "afford"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "can't go the price",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "transitive verb",
+      "section": "主词典 6c",
+      "entryId": "dictionary-entry-1",
+      "number": "6c",
+      "definition": "enjoy",
+      "parts": [
+        {
+          "label": "",
+          "text": "enjoy"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "I could go a soda.",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [
+        "see also go for"
+      ],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "transitive verb",
+      "section": "主词典 7a",
+      "entryId": "dictionary-entry-1",
+      "number": "7a",
+      "definition": "to make (a characteristic sound)",
+      "parts": [
+        {
+          "label": "",
+          "text": "to make (a characteristic sound)"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "The gun went bang.",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "transitive verb",
+      "section": "主词典 7b",
+      "entryId": "dictionary-entry-1",
+      "number": "7b",
+      "definition": "say",
+      "parts": [
+        {
+          "label": "",
+          "text": "say"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "… I started trying to write a novel. I spent about six months on it. And at a certain point I go, \"You know, I don't want to finish this. …\"—Quentin Tarantino",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "transitive verb",
+      "section": "主词典 8",
+      "entryId": "dictionary-entry-1",
+      "number": "8",
+      "definition": "to engage in",
+      "parts": [
+        {
+          "label": "",
+          "text": "to engage in"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "Don't go telling everyone.",
+          "translation": "",
+          "selected": false
+        },
+        {
+          "text": "He went blabbing the news everywhere.",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": "informal"
+    },
+    {
+      "pos": "transitive verb",
+      "section": "主词典 9",
+      "entryId": "dictionary-entry-1",
+      "number": "9",
+      "definition": "to have a record of",
+      "parts": [
+        {
+          "label": "",
+          "text": "to have a record of"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "went 11–0 last season",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": "of a sports team or player"
+    },
+    {
+      "pos": "noun (1)",
+      "section": "主词典 1",
+      "entryId": "dictionary-entry-2",
+      "number": "1",
+      "definition": "the act or manner of going",
+      "parts": [
+        {
+          "label": "",
+          "text": "the act or manner of going"
+        }
+      ],
+      "translation": "",
+      "examples": [],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "noun (1)",
+      "section": "主词典 2",
+      "entryId": "dictionary-entry-2",
+      "number": "2",
+      "definition": "the height of fashion : rage",
+      "parts": [
+        {
+          "label": "",
+          "text": "the height of fashion : rage"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "new trends that are quite the go",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "noun (1)",
+      "section": "主词典 3",
+      "entryId": "dictionary-entry-2",
+      "number": "3",
+      "definition": "an often unexpected turn of affairs : occurrence",
+      "parts": [
+        {
+          "label": "",
+          "text": "an often unexpected turn of affairs : occurrence"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "\"Funniest go you ever did see,\" he said …",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "noun (1)",
+      "section": "主词典 4",
+      "entryId": "dictionary-entry-2",
+      "number": "4",
+      "definition": "the quantity used or furnished at one time",
+      "parts": [
+        {
+          "label": "",
+          "text": "the quantity used or furnished at one time"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "\"Take a go of brandy, and you'll be all right,\" said Harry …",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "noun (1)",
+      "section": "主词典 5",
+      "entryId": "dictionary-entry-2",
+      "number": "5",
+      "definition": "energy, vigor",
+      "parts": [
+        {
+          "label": "",
+          "text": "energy, vigor"
+        }
+      ],
+      "translation": "",
+      "examples": [],
+      "references": [],
+      "selected": false,
+      "labels": "chiefly British; informal"
+    },
+    {
+      "pos": "noun (1)",
+      "section": "主词典 6a",
+      "entryId": "dictionary-entry-2",
+      "number": "6a",
+      "definition": "a turn in an activity (such as a game)",
+      "parts": [
+        {
+          "label": "",
+          "text": "a turn in an activity (such as a game)"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "It's your go.",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "noun (1)",
+      "section": "主词典 6b",
+      "entryId": "dictionary-entry-2",
+      "number": "6b",
+      "definition": "attempt, try",
+      "parts": [
+        {
+          "label": "",
+          "text": "attempt, try"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "have a go at painting",
+          "translation": "",
+          "selected": false
+        },
+        {
+          "text": "After thinking about writing a memoir for years, he's finally decided to give it a go.",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "noun (1)",
+      "section": "主词典 7",
+      "entryId": "dictionary-entry-2",
+      "number": "7",
+      "definition": "a spell of activity",
+      "parts": [
+        {
+          "label": "",
+          "text": "a spell of activity"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "finished the job at one go",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": "chiefly British"
+    },
+    {
+      "pos": "noun (1)",
+      "section": "主词典 8",
+      "entryId": "dictionary-entry-2",
+      "number": "8",
+      "definition": "success",
+      "parts": [
+        {
+          "label": "",
+          "text": "success"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "made a go of the business",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "noun (1)",
+      "section": "主词典 9",
+      "entryId": "dictionary-entry-2",
+      "number": "9",
+      "definition": "permission to proceed : go-ahead",
+      "parts": [
+        {
+          "label": "",
+          "text": "permission to proceed : go-ahead"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "My boss gave the project a go.",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [
+        "see also go-no-go"
+      ],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "adjective",
+      "section": "主词典",
+      "entryId": "dictionary-entry-3",
+      "number": "—",
+      "definition": "functioning properly : being in good and ready condition",
+      "parts": [
+        {
+          "label": "",
+          "text": "functioning properly : being in good and ready condition"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "declared all systems go",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "noun (2)",
+      "section": "主词典",
+      "entryId": "dictionary-entry-4",
+      "number": "—",
+      "definition": "a game played between two players who alternately place black and white stones on a board checkered by 19 vertical lines and 19 horizontal lines in an attempt to enclose the larger area on the board",
+      "parts": [
+        {
+          "label": "",
+          "text": "a game played between two players who alternately place black and white stones on a board checkered by 19 vertical lines and 19 horizontal lines in an attempt to enclose the larger area on the board"
+        }
+      ],
+      "translation": "",
+      "examples": [],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "儿童词典 1",
+      "entryId": "elementary-entry-1",
+      "number": "1",
+      "definition": "to move on a course : proceed",
+      "parts": [
+        {
+          "label": "",
+          "text": "to move on a course : proceed"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "go slow",
+          "translation": "",
+          "selected": false
+        },
+        {
+          "text": "go by train",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "儿童词典 2a",
+      "entryId": "elementary-entry-1",
+      "number": "2a",
+      "definition": "to move away from one point to or toward another : leave, depart",
+      "parts": [
+        {
+          "label": "",
+          "text": "to move away from one point to or toward another : leave, depart"
+        }
+      ],
+      "translation": "",
+      "examples": [],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "儿童词典 2b",
+      "entryId": "elementary-entry-1",
+      "number": "2b",
+      "definition": "follow entry 1 sense 4, traverse",
+      "parts": [
+        {
+          "label": "",
+          "text": "follow entry 1 sense 4, traverse"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "go the whole route",
+          "translation": "",
+          "selected": false
+        },
+        {
+          "text": "go my way",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "儿童词典 3a",
+      "entryId": "elementary-entry-1",
+      "number": "3a",
+      "definition": "to pass by a process like journeying",
+      "parts": [
+        {
+          "label": "",
+          "text": "to pass by a process like journeying"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "the message went by wire",
+          "translation": "",
+          "selected": false
+        },
+        {
+          "text": "the prize went to the winner",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "儿童词典 3b",
+      "entryId": "elementary-entry-1",
+      "number": "3b",
+      "definition": "extend sense 4, run",
+      "parts": [
+        {
+          "label": "",
+          "text": "extend sense 4, run"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "our land goes to the river",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "儿童词典 3c",
+      "entryId": "elementary-entry-1",
+      "number": "3c",
+      "definition": "lead entry 1 sense 1d",
+      "parts": [
+        {
+          "label": "",
+          "text": "lead entry 1 sense 1d"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "that door goes to the cellar",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "儿童词典 4",
+      "entryId": "elementary-entry-1",
+      "number": "4",
+      "definition": "to be habitually in a certain state",
+      "parts": [
+        {
+          "label": "",
+          "text": "to be habitually in a certain state"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "goes bareheaded",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "儿童词典 5a",
+      "entryId": "elementary-entry-1",
+      "number": "5a",
+      "definition": "to become lost, consumed, or spent",
+      "parts": [
+        {
+          "label": "",
+          "text": "to become lost, consumed, or spent"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "funds going for research",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "儿童词典 5b",
+      "entryId": "elementary-entry-1",
+      "number": "5b",
+      "definition": "to slip away : elapse",
+      "parts": [
+        {
+          "label": "",
+          "text": "to slip away : elapse"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "where did the time go",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "儿童词典 5c",
+      "entryId": "elementary-entry-1",
+      "number": "5c",
+      "definition": "to pass by sale",
+      "parts": [
+        {
+          "label": "",
+          "text": "to pass by sale"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "went for a good price",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "儿童词典 5d",
+      "entryId": "elementary-entry-1",
+      "number": "5d",
+      "definition": "to become damaged or weakened",
+      "parts": [
+        {
+          "label": "",
+          "text": "to become damaged or weakened"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "my hearing started to go",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "儿童词典 5e",
+      "entryId": "elementary-entry-1",
+      "number": "5e",
+      "definition": "to give way under force or pressure : break",
+      "parts": [
+        {
+          "label": "",
+          "text": "to give way under force or pressure : break"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "the dam went",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "儿童词典 6a",
+      "entryId": "elementary-entry-1",
+      "number": "6a",
+      "definition": "to be in general or on an average",
+      "parts": [
+        {
+          "label": "",
+          "text": "to be in general or on an average"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "cheap, as yachts go",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "儿童词典 6b",
+      "entryId": "elementary-entry-1",
+      "number": "6b",
+      "definition": "to become especially as the result of a contest",
+      "parts": [
+        {
+          "label": "",
+          "text": "to become especially as the result of a contest"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "decision went against us",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "儿童词典 7",
+      "entryId": "elementary-entry-1",
+      "number": "7",
+      "definition": "to put or subject oneself",
+      "parts": [
+        {
+          "label": "",
+          "text": "to put or subject oneself"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "go to great expense",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "儿童词典 8",
+      "entryId": "elementary-entry-1",
+      "number": "8",
+      "definition": "to make use of to settle a dispute : resort",
+      "parts": [
+        {
+          "label": "",
+          "text": "to make use of to settle a dispute : resort"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "go to court to recover damages",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "儿童词典 9a",
+      "entryId": "elementary-entry-1",
+      "number": "9a",
+      "definition": "to begin or continue an action or motion",
+      "parts": [
+        {
+          "label": "",
+          "text": "to begin or continue an action or motion"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "go when the light turns",
+          "translation": "",
+          "selected": false
+        },
+        {
+          "text": "drums going strong",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "儿童词典 9b",
+      "entryId": "elementary-entry-1",
+      "number": "9b",
+      "definition": "to function properly",
+      "parts": [
+        {
+          "label": "",
+          "text": "to function properly"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "get the motor to go",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "儿童词典 10",
+      "entryId": "elementary-entry-1",
+      "number": "10",
+      "definition": "to be known",
+      "parts": [
+        {
+          "label": "",
+          "text": "to be known"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "goes by a nickname",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "儿童词典 11",
+      "entryId": "elementary-entry-1",
+      "number": "11",
+      "definition": "to be or act in agreement",
+      "parts": [
+        {
+          "label": "",
+          "text": "to be or act in agreement"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "a good rule to go by",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "儿童词典 12",
+      "entryId": "elementary-entry-1",
+      "number": "12",
+      "definition": "to contribute to a result",
+      "parts": [
+        {
+          "label": "",
+          "text": "to contribute to a result"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "qualities that go to make a hero",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "儿童词典 13a",
+      "entryId": "elementary-entry-1",
+      "number": "13a",
+      "definition": "to be about, intending, or expecting",
+      "parts": [
+        {
+          "label": "",
+          "text": "to be about, intending, or expecting"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "is going to leave town",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "儿童词典 13b",
+      "entryId": "elementary-entry-1",
+      "number": "13b",
+      "definition": "to come or arrive at a certain state or condition",
+      "parts": [
+        {
+          "label": "",
+          "text": "to come or arrive at a certain state or condition"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "go to sleep",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "儿童词典 13c",
+      "entryId": "elementary-entry-1",
+      "number": "13c",
+      "definition": "to come to be",
+      "parts": [
+        {
+          "label": "",
+          "text": "to come to be"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "the tire went flat",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "儿童词典 14a",
+      "entryId": "elementary-entry-1",
+      "number": "14a",
+      "definition": "to be able to be placed",
+      "parts": [
+        {
+          "label": "",
+          "text": "to be able to be placed"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "these clothes will go in your suitcase",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "儿童词典 14b",
+      "entryId": "elementary-entry-1",
+      "number": "14b",
+      "definition": "to have a usual or proper place",
+      "parts": [
+        {
+          "label": "",
+          "text": "to have a usual or proper place"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "these books go on the top shelf",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "儿童词典 14c",
+      "entryId": "elementary-entry-1",
+      "number": "14c",
+      "definition": "to be capable of being contained in another quantity",
+      "parts": [
+        {
+          "label": "",
+          "text": "to be capable of being contained in another quantity"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "5 goes into 60 12 times",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "儿童词典 15",
+      "entryId": "elementary-entry-1",
+      "number": "15",
+      "definition": "to be likely : tend",
+      "parts": [
+        {
+          "label": "",
+          "text": "to be likely : tend"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "goes to show they can be trusted",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "儿童词典 16",
+      "entryId": "elementary-entry-1",
+      "number": "16",
+      "definition": "to be acceptable or satisfactory",
+      "parts": [
+        {
+          "label": "",
+          "text": "to be acceptable or satisfactory"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "any kind of dress goes",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "儿童词典 17",
+      "entryId": "elementary-entry-1",
+      "number": "17",
+      "definition": "bet entry 2 sense 1, bid",
+      "parts": [
+        {
+          "label": "",
+          "text": "bet entry 2 sense 1, bid"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "willing to go $50",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "儿童词典 18a",
+      "entryId": "elementary-entry-1",
+      "number": "18a",
+      "definition": "to be as expressed",
+      "parts": [
+        {
+          "label": "",
+          "text": "to be as expressed"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "as the story goes",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "verb",
+      "section": "儿童词典 18b",
+      "entryId": "elementary-entry-1",
+      "number": "18b",
+      "definition": "to be capable of being sung or played",
+      "parts": [
+        {
+          "label": "",
+          "text": "to be capable of being sung or played"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "the tune goes like this",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "noun",
+      "section": "儿童词典 1",
+      "entryId": "elementary-entry-2",
+      "number": "1",
+      "definition": "the height of fashion",
+      "parts": [
+        {
+          "label": "",
+          "text": "the height of fashion"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "that dress is all the go",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "noun",
+      "section": "儿童词典 2",
+      "entryId": "elementary-entry-2",
+      "number": "2",
+      "definition": "energy sense 1, vigor",
+      "parts": [
+        {
+          "label": "",
+          "text": "energy sense 1, vigor"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "full of go",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "noun",
+      "section": "儿童词典 3a",
+      "entryId": "elementary-entry-2",
+      "number": "3a",
+      "definition": "attempt entry 2 sense 1, try",
+      "parts": [
+        {
+          "label": "",
+          "text": "attempt entry 2 sense 1, try"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "have a go at it",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "noun",
+      "section": "儿童词典 3b",
+      "entryId": "elementary-entry-2",
+      "number": "3b",
+      "definition": "a spell of activity",
+      "parts": [
+        {
+          "label": "",
+          "text": "a spell of activity"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "did it in one go",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "noun",
+      "section": "儿童词典 3c",
+      "entryId": "elementary-entry-2",
+      "number": "3c",
+      "definition": "success sense 1c",
+      "parts": [
+        {
+          "label": "",
+          "text": "success sense 1c"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "make a go of a business",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    },
+    {
+      "pos": "adjective",
+      "section": "儿童词典",
+      "entryId": "elementary-entry-3",
+      "number": "—",
+      "definition": "in good and ready condition",
+      "parts": [
+        {
+          "label": "",
+          "text": "in good and ready condition"
+        }
+      ],
+      "translation": "",
+      "examples": [
+        {
+          "text": "all systems are go",
+          "translation": "",
+          "selected": false
+        }
+      ],
+      "references": [],
+      "selected": false,
+      "labels": ""
+    }
+  ],
+  "pronunciations": [
+    {
+      "region": "MW",
+      "value": "ˈgō",
+      "label": "",
+      "suffix": "",
+      "form": "go",
+      "kind": "headword",
+      "pos": "verb",
+      "edition": "主词典"
+    },
+    {
+      "region": "MW",
+      "value": "ˈwent",
+      "label": "",
+      "suffix": "",
+      "form": "went",
+      "kind": "inflection",
+      "pos": "verb",
+      "edition": "主词典"
+    },
+    {
+      "region": "MW",
+      "value": "ˈgȯn",
+      "label": "",
+      "suffix": "",
+      "form": "gone",
+      "kind": "inflection",
+      "pos": "verb",
+      "edition": "主词典"
+    },
+    {
+      "region": "MW",
+      "value": "ˈgän",
+      "label": "also",
+      "suffix": "",
+      "form": "gone",
+      "kind": "inflection",
+      "pos": "verb",
+      "edition": "主词典"
+    },
+    {
+      "region": "MW",
+      "value": "ˈgō-iŋ",
+      "label": "",
+      "suffix": "",
+      "form": "going",
+      "kind": "inflection",
+      "pos": "verb",
+      "edition": "主词典"
+    },
+    {
+      "region": "MW",
+      "value": "ˈgȯ(-)iŋ",
+      "label": "",
+      "suffix": ";",
+      "form": "going",
+      "kind": "inflection",
+      "pos": "verb",
+      "edition": "主词典"
+    },
+    {
+      "region": "MW",
+      "value": "ˈgō-ə-nə",
+      "label": "\"going to\" in sense 13 is often",
+      "suffix": "",
+      "form": "going",
+      "kind": "inflection",
+      "pos": "verb",
+      "edition": "主词典"
+    },
+    {
+      "region": "MW",
+      "value": "ˈgȯ-nə",
+      "label": "or",
+      "suffix": "",
+      "form": "going",
+      "kind": "inflection",
+      "pos": "verb",
+      "edition": "主词典"
+    },
+    {
+      "region": "MW",
+      "value": "ˈgə-nə",
+      "label": "or",
+      "suffix": "",
+      "form": "going",
+      "kind": "inflection",
+      "pos": "verb",
+      "edition": "主词典"
+    },
+    {
+      "region": "MW",
+      "value": "ˈgōz",
+      "label": "",
+      "suffix": "",
+      "form": "goes",
+      "kind": "inflection",
+      "pos": "verb",
+      "edition": "主词典"
+    },
+    {
+      "region": "MW",
+      "value": "ˈgō-ər",
+      "label": "",
+      "suffix": "",
+      "form": "goer",
+      "kind": "derived",
+      "pos": "noun",
+      "edition": "主词典"
+    },
+    {
+      "region": "MW",
+      "value": "ˈgō",
+      "label": "",
+      "suffix": "",
+      "form": "go",
+      "kind": "headword",
+      "pos": "noun (1)",
+      "edition": "主词典"
+    },
+    {
+      "region": "MW",
+      "value": "ˈgō",
+      "label": "",
+      "suffix": "",
+      "form": "go",
+      "kind": "headword",
+      "pos": "verb",
+      "edition": "儿童词典"
+    },
+    {
+      "region": "MW",
+      "value": "ˈwent",
+      "label": "",
+      "suffix": "",
+      "form": "went",
+      "kind": "inflection",
+      "pos": "verb",
+      "edition": "儿童词典"
+    },
+    {
+      "region": "MW",
+      "value": "ˈgȯn",
+      "label": "",
+      "suffix": "",
+      "form": "gone",
+      "kind": "inflection",
+      "pos": "verb",
+      "edition": "儿童词典"
+    },
+    {
+      "region": "MW",
+      "value": "ˈgän",
+      "label": "also",
+      "suffix": "",
+      "form": "gone",
+      "kind": "inflection",
+      "pos": "verb",
+      "edition": "儿童词典"
+    },
+    {
+      "region": "MW",
+      "value": "ˈgō-iŋ",
+      "label": "",
+      "suffix": "",
+      "form": "going",
+      "kind": "inflection",
+      "pos": "verb",
+      "edition": "儿童词典"
+    },
+    {
+      "region": "MW",
+      "value": "ˈgōz",
+      "label": "",
+      "suffix": "",
+      "form": "goes",
+      "kind": "inflection",
+      "pos": "verb",
+      "edition": "儿童词典"
+    }
+  ],
+  "pronunciationGroups": [
+    {
+      "form": "go",
+      "kind": "headword",
+      "pos": "verb",
+      "edition": "主词典",
+      "region": "MW",
+      "items": [
+        {
+          "label": "",
+          "value": "ˈgō",
+          "suffix": "",
+          "audioUrl": "https://media.merriam-webster.com/audio/prons/en/us/mp3/g/go000001.mp3"
+        }
+      ]
+    },
+    {
+      "form": "went",
+      "kind": "inflection",
+      "pos": "verb",
+      "edition": "主词典",
+      "region": "MW",
+      "items": [
+        {
+          "label": "",
+          "value": "ˈwent",
+          "suffix": "",
+          "audioUrl": "https://media.merriam-webster.com/audio/prons/en/us/mp3/g/go000002.mp3"
+        }
+      ]
+    },
+    {
+      "form": "gone",
+      "kind": "inflection",
+      "pos": "verb",
+      "edition": "主词典",
+      "region": "MW",
+      "items": [
+        {
+          "label": "",
+          "value": "ˈgȯn",
+          "suffix": "",
+          "audioUrl": "https://media.merriam-webster.com/audio/prons/en/us/mp3/g/go000003.mp3"
+        },
+        {
+          "label": "also",
+          "value": "ˈgän",
+          "suffix": "",
+          "audioUrl": null
+        }
+      ]
+    },
+    {
+      "form": "going",
+      "kind": "inflection",
+      "pos": "verb",
+      "edition": "主词典",
+      "region": "MW",
+      "items": [
+        {
+          "label": "",
+          "value": "ˈgō-iŋ",
+          "suffix": "",
+          "audioUrl": "https://media.merriam-webster.com/audio/prons/en/us/mp3/g/go000004.mp3"
+        },
+        {
+          "label": "",
+          "value": "ˈgȯ(-)iŋ",
+          "suffix": ";",
+          "audioUrl": null
+        },
+        {
+          "label": "\"going to\" in sense 13 is often",
+          "value": "ˈgō-ə-nə",
+          "suffix": "",
+          "audioUrl": null
+        },
+        {
+          "label": "or",
+          "value": "ˈgȯ-nə",
+          "suffix": "",
+          "audioUrl": null
+        },
+        {
+          "label": "or",
+          "value": "ˈgə-nə",
+          "suffix": "",
+          "audioUrl": "https://media.merriam-webster.com/audio/prons/en/us/mp3/g/gonna01ld.mp3"
+        }
+      ]
+    },
+    {
+      "form": "goes",
+      "kind": "inflection",
+      "pos": "verb",
+      "edition": "主词典",
+      "region": "MW",
+      "items": [
+        {
+          "label": "",
+          "value": "ˈgōz",
+          "suffix": "",
+          "audioUrl": "https://media.merriam-webster.com/audio/prons/en/us/mp3/g/go000005.mp3"
+        }
+      ]
+    },
+    {
+      "form": "goer",
+      "kind": "derived",
+      "pos": "noun",
+      "edition": "主词典",
+      "region": "MW",
+      "items": [
+        {
+          "label": "",
+          "value": "ˈgō-ər",
+          "suffix": "",
+          "audioUrl": "https://media.merriam-webster.com/audio/prons/en/us/mp3/g/go000006.mp3"
+        }
+      ]
+    },
+    {
+      "form": "go",
+      "kind": "headword",
+      "pos": "noun (1)",
+      "edition": "主词典",
+      "region": "MW",
+      "items": [
+        {
+          "label": "",
+          "value": "ˈgō",
+          "suffix": "",
+          "audioUrl": "https://media.merriam-webster.com/audio/prons/en/us/mp3/g/go000007.mp3"
+        }
+      ]
+    },
+    {
+      "form": "go",
+      "kind": "headword",
+      "pos": "verb",
+      "edition": "儿童词典",
+      "region": "MW",
+      "items": [
+        {
+          "label": "",
+          "value": "ˈgō",
+          "suffix": "",
+          "audioUrl": "https://media.merriam-webster.com/audio/prons/en/us/mp3/g/go000001.mp3"
+        }
+      ]
+    },
+    {
+      "form": "went",
+      "kind": "inflection",
+      "pos": "verb",
+      "edition": "儿童词典",
+      "region": "MW",
+      "items": [
+        {
+          "label": "",
+          "value": "ˈwent",
+          "suffix": "",
+          "audioUrl": "https://media.merriam-webster.com/audio/prons/en/us/mp3/g/go000002.mp3"
+        }
+      ]
+    },
+    {
+      "form": "gone",
+      "kind": "inflection",
+      "pos": "verb",
+      "edition": "儿童词典",
+      "region": "MW",
+      "items": [
+        {
+          "label": "",
+          "value": "ˈgȯn",
+          "suffix": "",
+          "audioUrl": "https://media.merriam-webster.com/audio/prons/en/us/mp3/g/go000003.mp3"
+        },
+        {
+          "label": "also",
+          "value": "ˈgän",
+          "suffix": "",
+          "audioUrl": null
+        }
+      ]
+    },
+    {
+      "form": "going",
+      "kind": "inflection",
+      "pos": "verb",
+      "edition": "儿童词典",
+      "region": "MW",
+      "items": [
+        {
+          "label": "",
+          "value": "ˈgō-iŋ",
+          "suffix": "",
+          "audioUrl": "https://media.merriam-webster.com/audio/prons/en/us/mp3/g/go000004.mp3"
+        }
+      ]
+    },
+    {
+      "form": "goes",
+      "kind": "inflection",
+      "pos": "verb",
+      "edition": "儿童词典",
+      "region": "MW",
+      "items": [
+        {
+          "label": "",
+          "value": "ˈgōz",
+          "suffix": "",
+          "audioUrl": "https://media.merriam-webster.com/audio/prons/en/us/mp3/g/go000005.mp3"
+        }
+      ]
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/g/go000001.mp3",
+      "region": "MW",
+      "form": "go",
+      "pronunciation": "ˈgō",
+      "pos": "verb"
+    },
+    {
+      "url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/g/go000002.mp3",
+      "region": "MW",
+      "form": "went",
+      "pronunciation": "ˈwent",
+      "pos": "verb"
+    },
+    {
+      "url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/g/go000003.mp3",
+      "region": "MW",
+      "form": "gone",
+      "pronunciation": "ˈgȯn",
+      "pos": "verb"
+    },
+    {
+      "url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/g/go000004.mp3",
+      "region": "MW",
+      "form": "going",
+      "pronunciation": "ˈgō-iŋ",
+      "pos": "verb"
+    },
+    {
+      "url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/g/gonna01ld.mp3",
+      "region": "MW",
+      "form": "going",
+      "pronunciation": "ˈgə-nə",
+      "pos": "verb"
+    },
+    {
+      "url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/g/go000005.mp3",
+      "region": "MW",
+      "form": "goes",
+      "pronunciation": "ˈgōz",
+      "pos": "verb"
+    },
+    {
+      "url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/g/go000006.mp3",
+      "region": "MW",
+      "form": "goer",
+      "pronunciation": "ˈgō-ər",
+      "pos": "noun"
+    },
+    {
+      "url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/g/go000007.mp3",
+      "region": "MW",
+      "form": "go",
+      "pronunciation": "ˈgō",
+      "pos": "noun (1)"
+    }
+  ],
+  "forms": [
+    "went",
+    "gone",
+    "going",
+    "goes"
+  ],
+  "phrases": [
+    "a-go-go",
+    "all go",
+    "a ways to go",
+    "a way to go",
+    "can't go wrong with",
+    "come and go",
+    "come/go crawling to",
+    "come/go on the air",
+    "come/go to the rescue of",
+    "could go for",
+    "do/go the rounds",
+    "easy come, easy go",
+    "enough/plenty to go around",
+    "enough/plenty to go round",
+    "from the get-go",
+    "from the word go",
+    "get-go",
+    "get/go back to nature",
+    "get/go back to (the) basics",
+    "(get) ready, (get) set, go",
+    "get-up-and-go",
+    "git-go",
+    "give-and-go",
+    "give it a go",
+    "given the go-ahead",
+    "go about",
+    "go about one's business",
+    "go about one's work",
+    "go a bundle on",
+    "go according to schedule",
+    "go after",
+    "go after someone's scalp",
+    "go against",
+    "go against her parents' will",
+    "go against someone's grain",
+    "go against someone's wishes",
+    "go against the flow",
+    "go against the grain",
+    "go-ahead",
+    "go ahead with (something)",
+    "go all in",
+    "go all out",
+    "go all the way",
+    "go along",
+    "go a long way toward/towards",
+    "go along with",
+    "go anywhere",
+    "go ape",
+    "go around",
+    "go as",
+    "go at",
+    "go at it",
+    "go away",
+    "go back",
+    "go back a long way",
+    "go back on",
+    "go back on one's promise",
+    "go back on one's word",
+    "go back to",
+    "go back to square one",
+    "go back to the drawing board",
+    "go bad",
+    "go bag",
+    "go bald",
+    "go ballistic",
+    "go bankrupt",
+    "go bathing",
+    "go beast mode",
+    "go before",
+    "go begging",
+    "go belly-up",
+    "go berserk",
+    "go-between",
+    "go beyond",
+    "go blank",
+    "go blind",
+    "go blue",
+    "go broke",
+    "go bust",
+    "go by",
+    "go bye-bye",
+    "go bye-byes",
+    "go by the board",
+    "go-cart",
+    "go club-hopping",
+    "go commando",
+    "go crazy",
+    "go crook",
+    "go cup",
+    "go dark",
+    "go dead",
+    "go deaf",
+    "go-devil",
+    "go down",
+    "go down in history",
+    "go down/like a bomb",
+    "go down like a lead balloon",
+    "go down on",
+    "go down the aisle",
+    "go down the tubes",
+    "go down to defeat",
+    "go down with",
+    "go Dutch",
+    "go easy",
+    "go easy on",
+    "go either way",
+    "go ex-directory",
+    "go-fer",
+    "go figure",
+    "go fly a kite",
+    "go flying",
+    "go for",
+    "go for a burton",
+    "go for a wander",
+    "go for broke",
+    "go for naught",
+    "go for the brass ring",
+    "go for the jugular",
+    "go forward",
+    "go from strength to strength",
+    "go-getter",
+    "go-go",
+    "go gold",
+    "go great guns",
+    "go grocery shopping",
+    "go half and half",
+    "go halves",
+    "go hang",
+    "go hard in the paint",
+    "go heavy on",
+    "go hog wild",
+    "go hungry",
+    "go in",
+    "go incognito mode",
+    "go in for",
+    "going bananas",
+    "going out of my mind",
+    "going out of my mind with worry",
+    "go in on",
+    "go insane",
+    "go into",
+    "go into conniptions",
+    "go into detail",
+    "go into hiding",
+    "go into hysterics",
+    "go into mourning",
+    "go into politics",
+    "go into production",
+    "go into remission",
+    "go into service",
+    "go in with",
+    "go it",
+    "go it alone",
+    "(go) jump in a/the lake",
+    "go kablooey",
+    "go kablooie",
+    "go kaboom",
+    "go kaput",
+    "go-kart",
+    "go kerblooey",
+    "go legit",
+    "go light on",
+    "go live",
+    "go mad",
+    "go mano a mano",
+    "go missing",
+    "go/move upmarket",
+    "go/move upscale",
+    "go native",
+    "go no further",
+    "go-no-go",
+    "go nowhere",
+    "go nuclear",
+    "go number one",
+    "go nuts",
+    "good to go",
+    "go off",
+    "go off at half cock",
+    "go off half-cocked",
+    "go off on a tangent",
+    "go off the air",
+    "go off the deep end",
+    "go off the rails",
+    "go off with",
+    "go on",
+    "go on at",
+    "go on display",
+    "go one better",
+    "go one's own way",
+    "go on hiatus",
+    "go on one's merry way",
+    "go on public assistance",
+    "go on the attack",
+    "go on the stage",
+    "go our/their/your several ways",
+    "go out",
+    "go out of existence",
+    "go out of one's way",
+    "go out of production",
+    "go out of use",
+    "go out the window",
+    "go out with a bang",
+    "go over",
+    "go over big",
+    "go overboard",
+    "go over like a lead balloon",
+    "go over someone's head",
+    "go over/through (something) with a fine-tooth comb",
+    "go pear-shaped",
+    "go phut",
+    "go pit-a-pat",
+    "go pitter-patter",
+    "go places",
+    "go platinum",
+    "go postal",
+    "go potty",
+    "go public",
+    "go rogue",
+    "go-round",
+    "go/run through someone's mind",
+    "go separate ways",
+    "go septic",
+    "go shooting",
+    "go shopping",
+    "go-slow",
+    "go so far",
+    "go someone's way",
+    "go spare",
+    "go stag",
+    "go stale",
+    "go steady",
+    "go straight",
+    "go strong",
+    "go/swim with/against the tide",
+    "go take a hike",
+    "go/take the traditional route",
+    "go the distance",
+    "go the extra mile",
+    "go there",
+    "go the way of all flesh",
+    "go (the) whole hog",
+    "go through",
+    "go through a rough time",
+    "go through one's paces",
+    "go through the ceiling",
+    "go through the motions",
+    "go through the roof",
+    "go through with",
+    "go to",
+    "go to any length(s)",
+    "go to bat",
+    "go to bat for",
+    "go to bed",
+    "go to bed with",
+    "go to church",
+    "go to court",
+    "go to extreme/great lengths",
+    "go together",
+    "go to great pains",
+    "go to hell",
+    "go to hell in a handbasket",
+    "go to law",
+    "go too far",
+    "go to (one's) glory",
+    "go to one's grave",
+    "go to one's head",
+    "go to pieces",
+    "go to pot",
+    "go to press",
+    "go to print",
+    "go to rack and ruin",
+    "go to sea",
+    "go to seed",
+    "go to show/prove",
+    "go to sleep",
+    "go to temple",
+    "go to the bathroom",
+    "go to the cinema",
+    "go to the country",
+    "go to the devil",
+    "go to the dogs",
+    "go to (the) expense",
+    "go to the mat",
+    "go to the stake for/over",
+    "go to the toilet",
+    "go to the wall",
+    "go to town",
+    "go to trouble",
+    "go to university",
+    "go to war",
+    "go toward(s)",
+    "go to waste",
+    "go under",
+    "go underground",
+    "go under the knife",
+    "go unheard",
+    "go unheeded",
+    "go up",
+    "go up in flames",
+    "go up in smoke",
+    "go walkabout",
+    "go walking",
+    "go way back",
+    "go wee-wee",
+    "go where others fear to tread",
+    "go with",
+    "go with a swing",
+    "go without",
+    "go without saying",
+    "go with the crowd",
+    "go with the flow",
+    "go with the territory",
+    "go wrong",
+    "happy-go-lucky",
+    "have a go",
+    "have a go at",
+    "have (got) to go",
+    "here we go",
+    "hide-and-go-seek",
+    "in/at one go",
+    "let go",
+    "let go of",
+    "let it go",
+    "let it go at that",
+    "let oneself go",
+    "let's go",
+    "make a go of",
+    "merry-go-round",
+    "no go",
+    "no-go area",
+    "not come/go amiss",
+    "on the go",
+    "pay-as-you-go",
+    "pick up and leave/go",
+    "ready, steady, go",
+    "received/got the go-ahead",
+    "stop-and-go",
+    "stop-go",
+    "Sunday-go-to-meeting",
+    "the go-ahead",
+    "(there) but for the grace of God (go I)",
+    "there go/goes",
+    "there you are/go",
+    "the show must go on",
+    "to go",
+    "to go on",
+    "touch and go",
+    "way to go",
+    "worth a go"
+  ],
+  "labels": [
+    "obsolete",
+    "chiefly Southern US and Midland US",
+    "informal",
+    "of a sports team or player",
+    "chiefly British"
+  ],
+  "references": [],
+  "rawText": "go 1 of 4 verb ˈgō How to pronounce go (audio) went ˈwent How to pronounce go (audio) ; gone ˈgȯn How to pronounce go (audio) also ˈgän ; going ˈgō-iŋ How to pronounce go (audio) ˈgȯ(-)iŋ; \"going to\" in sense 13 is often ˈgō-ə-nə or ˈgȯ-nə or ˈgə-nə How to pronounce go (audio) ; goes ˈgōz How to pronounce go (audio) Synonyms of gonext intransitive verb 1 a : to move or travel in a particular way or direction or for a particular distance You need to go slow. went by train Go straight at the intersection. went a long way to see them —often used figurativelyHe'll go far in life. He's going places. [=he'll be successful]We've done a lot, but we still have a long way to go. [=we have a lot more to do]These changes will go a long way toward fixing the problem.Now that phase one is done, where do we go from here? [=what do we do now?]Their relationship doesn't seem to be going anywhere. [=is not progressing]This time you've gone too far! [=you've done something that cannot be allowed]It's raining. There goes our picnic. [=our picnic is no longer possible]We'll use this procedure going forward. [=from now on] see also go down, go up compare stop b : to move or travel to a place especially for a particular purpose goes to the office every morning went to a movie went to the gas station before heading home I may go to see them. c : to travel to and stay in a place for a period of time went to Paris for a month plan to go to their beach house for the summer d : to do something that involves or implies moving or traveling to a place They went running when they heard the noise. go for a swim —often used with ongoing on vacationwent on a crime spree 2 a : to move out of or away from a place expressed or implied : leave, depart went from school to the party going away for vacation It's late. We need to go. b : to leave a job, position, etc. After 30 years at the company, she was ready to go. 3 a : to take a certain course or follow a certain procedure Reports go through channels to the president. b : to pass by means of a process like journeying The message went by email. c : to proceed without delay and often in a thoughtless or reckless manner —used especially to intensify a complementary verbWhy did you go and spoil it?go jump in a lake d(1) : to extend from point to point or in a certain direction The road goes to the lake. (2) : to give access : lead That door goes to the cellar. 4 obsolete : walk 5 : to be habitually in a certain state or condition goes barefoot in the summer 6 a : to become lost, consumed, or spent I don't know where the money goes. b : die We all have to go sometime. c : to slip away : elapse The evening went quickly. d : to come to be given up or discarded decided to let the matter go This clutter has to go. e(1) : to pass by sale went for a good price (2) : to be willing to pay I'll go as high as $100. f : to become impaired or weakened His hearing is starting to go g : to give way especially under great force or pressure : break The roof went under the weight of the snow. 7 a : to happen in a specified manner : fare Everything was going well till now. b : to be in general or on an average cheap, as yachts go c : to be or become especially as the result of a contest, election, decision, etc. The election went in her favor. The verdict went against them. d : to turn out in a particular way The party went as planned. 8 a : to apply oneself went to work on the problem b : to put or subject oneself Don't go to any trouble/expense. c chiefly Southern US and Midland US : intend I didn't go to do it. 9 a : to have recourse to another for corroboration, vindication, or decision : resort went to court to recover damages b : to act in agreement or cooperation … the echo of my girlfriend's voice comes into my head, saying, \"Whatever happens, just go with it.\"—Jason Schwartzman 10 a : to begin an action or motion Here goes! b : to maintain or perform a certain action or motion still going strong Can you go like this with your eyebrows? [=can you move your eyebrows like this?] c : to function in the proper or expected manner : run I can't get the car to go. 11 a : to come to be determined … hanging and wiving goes by destiny.—William Shakespeare b : to come to be applied or appropriated All proceeds go to charity. c : to pass by award, assignment, or lot The prize went to a sophomore. d(1) : to contribute to an end or result qualities that go to make a hero (2) : to be of advantage has a lot going for her 12 : to be about, intending, or expecting something —used in a progressive tense before an infinitiveis going to leave town 13 a : extend His knowledge fails to go very deep. b : to come or arrive at a certain state or condition go to sleep \" … I finally went to pieces and couldn't stop crying for two hours. … \"—Gwendoline Christie see also go into sense 2 c : to come to be : become The tire went flat. —often used to express conversion to specified values or a specified statea hometown kid gone Hollywoodgo condo d : to undergo a change leaves going from green to red 14 a : to be in phrasing or expression : read as the story goes b : to be capable of being sung or played a tune that goes like this 15 : to be compatible, suitable, or becoming : harmonize That tie goes with his suit. 16 a : to be capable of passing, extending, or being contained or inserted Will these clothes go in your suitcase? b : to have a usual or proper place or position : belong These books go on the top shelf. 17 : to have a tendency : conduce it goes to show 18 a : to carry authority What she says goes. b : to be acceptable, satisfactory, or adequate Anything goes around here 19 : to empty the bladder or bowels transitive verb 1 : to proceed along or according to : follow if I were going his way went the conventional route —often used figurativelyHe has always gone his own way. [=done what he wants to do instead of what most people do] 2 : to travel through or along : traverse went the length of the street 3 a : to make a wager of : bet go a dollar on the outcome b : to make an offer of : bid willing to go $50 for the clock 4 a : to assume the function or obligation of promised to go bail for his friend b : to participate to the extent of decided to go halves on the winnings 5 : yield, weigh This fish goes ten pounds. 6 a : to put up with : tolerate couldn't go the noise b : afford can't go the price c : enjoy I could go a soda. see also go for 7 a : to make (a characteristic sound) The gun went bang. b : say —used chiefly in oral narration of speech… I started trying to write a novel. I spent about six months on it. And at a certain point I go, \"You know, I don't want to finish this. …\"—Quentin Tarantino 8 informal : to engage in Don't go telling everyone. He went blabbing the news everywhere. 9 of a sports team or player : to have a record of went 11–0 last season goer ˈgō-ər How to pronounce go (audio) noun see also: get going go about go after go all the way go as go at go before go begging go by the board go easy go fly a kite go for broke go great guns go hang go it go kablooey go kaboom go missing go one better go places go public go steady go to bat for go to bed with go to one's head go to pieces go to the mat go to town go with go without go without saying go with the flow here goes let go to go\n\ngo 2 of 4 noun (1) ˈgō How to pronounce go (audio) plural goes 1 : the act or manner of going 2 : the height of fashion : rage new trends that are quite the go 3 : an often unexpected turn of affairs : occurrence \"Funniest go you ever did see,\" he said …—Ngaio Marsh 4 : the quantity used or furnished at one time \"Take a go of brandy, and you'll be all right,\" said Harry …—Charles James Lever 5 chiefly British, informal : energy, vigor 6 a : a turn in an activity (such as a game) It's your go. b : attempt, try have a go at painting After thinking about writing a memoir for years, he's finally decided to give it a go. 7 chiefly British : a spell of activity finished the job at one go 8 : success made a go of the business 9 : permission to proceed : go-ahead My boss gave the project a go. see also go-no-go see also: no go on the go\n\ngo 3 of 4 adjective : functioning properly : being in good and ready condition declared all systems go\n\ngo 4 of 4 noun (2) variants often Go : a game played between two players who alternately place black and white stones on a board checkered by 19 vertical lines and 19 horizontal lines in an attempt to enclose the larger area on the board\n\ngo 1 of 3 verb ˈgō How to pronounce go (audio) went ˈwent How to pronounce go (audio) ; gone ˈgȯn How to pronounce go (audio) also ˈgän ; going ˈgō-iŋ How to pronounce go (audio) ; goes ˈgōz How to pronounce go (audio) 1 : to move on a course : proceed go slow go by train 2 a : to move away from one point to or toward another : leave, depart b : follow entry 1 sense 4, traverse go the whole route go my way 3 a : to pass by a process like journeying the message went by wire the prize went to the winner b : extend sense 4, run our land goes to the river c : lead entry 1 sense 1d that door goes to the cellar 4 : to be habitually in a certain state goes bareheaded 5 a : to become lost, consumed, or spent funds going for research b : to slip away : elapse where did the time go c : to pass by sale went for a good price d : to become damaged or weakened my hearing started to go e : to give way under force or pressure : break the dam went 6 a : to be in general or on an average cheap, as yachts go b : to become especially as the result of a contest decision went against us 7 : to put or subject oneself go to great expense 8 : to make use of to settle a dispute : resort go to court to recover damages 9 a : to begin or continue an action or motion go when the light turns drums going strong b : to function properly get the motor to go 10 : to be known goes by a nickname 11 : to be or act in agreement a good rule to go by 12 : to contribute to a result qualities that go to make a hero 13 a : to be about, intending, or expecting is going to leave town b : to come or arrive at a certain state or condition go to sleep c : to come to be the tire went flat 14 a : to be able to be placed these clothes will go in your suitcase b : to have a usual or proper place these books go on the top shelf c : to be capable of being contained in another quantity 5 goes into 60 12 times 15 : to be likely : tend goes to show they can be trusted 16 : to be acceptable or satisfactory any kind of dress goes 17 : bet entry 2 sense 1, bid willing to go $50 18 a : to be as expressed as the story goes b : to be capable of being sung or played the tune goes like this goer noun\n\ngo 2 of 3 noun plural goes 1 : the height of fashion that dress is all the go 2 : energy sense 1, vigor full of go 3 a : attempt entry 2 sense 1, try have a go at it b : a spell of activity did it in one go c : success sense 1c make a go of a business\n\ngo 3 of 3 adjective : in good and ready condition all systems are go",
+  "warnings": [],
+  "snapshot": []
+}

@@ -1,0 +1,25 @@
+{
+  "name": "worddesk",
+  "productName": "WordDesk",
+  "version": "0.18.0",
+  "private": true,
+  "description": "双词典查词与本地纸面复习词库",
+  "main": "src/main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test test/*.test.cjs",
+    "package": "node scripts/package.cjs",
+    "smoke": "node scripts/smoke.cjs"
+  },
+  "dependencies": {
+    "adm-zip": "0.6.1",
+    "exceljs": "4.4.0",
+    "pdfjs-dist": "5.4.624"
+  },
+  "devDependencies": {
+    "cheerio": "1.2.0",
+    "electron": "44.4.3",
+    "playwright": "1.63.0"
+  },
+  "packageManager": "pnpm@11.19.0"
+}
