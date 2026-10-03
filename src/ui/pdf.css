@@ -2,3 +2,5 @@
 
 .saved-highlight{position:absolute;z-index:4;background:#ffdf5966;border:0;border-radius:2px;padding:0;cursor:pointer;mix-blend-mode:multiply}.saved-highlight:hover{background:#ffc93899}
 #scroller{scrollbar-gutter:stable}
+
+.search-hit{position:absolute;pointer-events:none;background:#ffd44755;z-index:3}.current-search-hit{background:#ff8b2270;outline:2px solid #c75b00}#find-count{white-space:nowrap;font-size:12px}#toolbar{flex-wrap:wrap}#find{display:flex;gap:4px;align-items:center}

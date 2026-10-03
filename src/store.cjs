@@ -1,6 +1,7 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const crypto = require('node:crypto');
+const {atomicJSON, checkpoint, snapshots} = require('./safe-json.cjs');
 const key = s => s.normalize('NFKC').trim().toLowerCase();
 const fingerprint = s => JSON.stringify([s.pos,s.section,s.definition,s.translation]);
 const normalized = s => String(s||'').replace(/\s+/g,' ').trim();
@@ -8,7 +9,11 @@ const TRASH_RETENTION_MS=7*24*60*60*1000;
 function mergeEntry(old, incoming) {
   // Only new or changed senses start unselected. Persisted user selections survive updates.
   incoming.senses.forEach(s=>{s.selected=false;s.includeChinese=false;s.examples.forEach(e=>e.selected=false);});
+  incoming.quality={previous:old?.senses.length??null,current:incoming.senses.length,checkedAt:new Date().toISOString(),needsReview:false};
   if (!old) return incoming;
+  incoming.quality.needsReview=incoming.senses.length<old.senses.length;
+  if(incoming.quality.needsReview)incoming.warnings.push('本次释义数量减少，请对照旧内容核查；数量不代表完整性。');
+  incoming.previousExtraction={capturedAt:old.capturedAt,senses:old.senses};
   const previous = new Map();
   for (const s of old.senses) { const k=fingerprint(s); if(!previous.has(k)) previous.set(k,[]); previous.get(k).push(s); }
   for (const s of incoming.senses) {
@@ -43,10 +48,35 @@ class Store {
   constructor(root) { this.root=root; fs.mkdirSync(root,{recursive:true}); this.file=path.join(root,'library.json'); this.data=fs.existsSync(this.file)?JSON.parse(fs.readFileSync(this.file,'utf8')):{version:1,words:[],groups:[],exportFields:['word','pos','meaning']}; this.validate(this.data); this.data.trash??=[];this.data.lastCollectionGroups??=[];
     // Pre-retention records receive one full grace period on first upgrade.
     let migrated=false;if(JSON.stringify(this.data.exportFields)===JSON.stringify(['word','phonetic','pos','definition','translation','examples'])){this.data.exportFields=['word','pos','meaning'];migrated=true;}const now=Date.now();for(const w of this.data.trash)if(!Number.isFinite(Date.parse(w.expiresAt))){w.expiresAt=new Date(now+TRASH_RETENTION_MS).toISOString();migrated=true;}
-    if(migrated)this.save();this.cleanupExpired(now);
+    this.historyFile=path.join(root,'reading-history.json');
+    if(fs.existsSync(this.historyFile)){const history=JSON.parse(fs.readFileSync(this.historyFile,'utf8'));if(!Array.isArray(history))throw new Error('阅读记录格式不受支持');this.data.pdfHistory=history;}
+    this.persisted=JSON.stringify(this.data);
+    if(migrated)this.save();this.cleanupExpired(now);this.checkpoint();
   }
   validate(d) { if(d.version!==1 || !Array.isArray(d.words)||!Array.isArray(d.groups)) throw new Error('词库格式不受支持'); }
-  save() { const tmp=this.file+'.tmp'; fs.writeFileSync(tmp,JSON.stringify(this.data,null,2)); fs.renameSync(tmp,this.file); }
+  save() {
+    const {pdfHistory,...library}=this.data;
+    try {
+      if(pdfHistory&&!fs.existsSync(this.historyFile))this.saveHistory();
+      atomicJSON(this.file,library,{validate:d=>this.validate(d)});
+      this.persisted=JSON.stringify(this.data);
+    } catch(error) {
+      const history=this.data.pdfHistory;
+      this.data=JSON.parse(this.persisted);
+      if(history)this.data.pdfHistory=history;
+      throw error;
+    }
+  }
+  saveHistory(){atomicJSON(this.historyFile,this.data.pdfHistory||[],{validate:d=>{if(!Array.isArray(d))throw new Error('阅读记录格式不受支持');}});}
+  scheduleHistory(){
+    clearTimeout(this.historyTimer);
+    this.historyTimer=setTimeout(()=>this.tryFlushHistory(),750);this.historyTimer.unref?.();
+    if(!this.historyDeadline){this.historyDeadline=setTimeout(()=>this.tryFlushHistory(),5000);this.historyDeadline.unref?.();}
+  }
+  tryFlushHistory(){try{this.flushHistory();}catch(e){this.historyError=e.message;}}
+  flushHistory(){if(!this.historyTimer&&!this.historyDeadline&&!this.historyError)return;clearTimeout(this.historyTimer);clearTimeout(this.historyDeadline);this.historyTimer=null;this.historyDeadline=null;try{this.saveHistory();this.historyError=null;this.onHistoryError?.(null);}catch(e){this.historyError=e.message;this.onHistoryError?.(e.message);throw e;}}
+  backups(){return snapshots(this.file,d=>this.validate(d)).map(({name,time,data})=>({name,time,words:data.words.length}));}
+  checkpoint(){checkpoint(this.file,d=>this.validate(d),true);}
   collect(entry,groups) { if(groups!==undefined)this.checkGroups(groups);let w=this.data.words.find(w=>key(w.word)===key(entry.headword)); if(!w) { w={id:crypto.randomUUID(),word:entry.headword,createdAt:new Date().toISOString(),source:'mw',groups:[],notes:'',entries:{}}; this.data.words.push(w); } w.entries[entry.source]=mergeEntry(w.entries[entry.source],entry); if(!w.entries[w.source]) w.source=entry.source; if(groups!==undefined){w.groups=[...new Set([...w.groups,...groups])];this.data.lastCollectionGroups=[...groups];}w.updatedAt=new Date().toISOString(); this.save(); return w; }
   checkGroups(groups){if(!Array.isArray(groups)||!groups.length||groups.some(g=>!this.data.groups.includes(g)))throw new Error('请选择至少一个现有分组');}
   deleteGroup(group){if(!this.data.groups.includes(group))throw new Error('分组不存在');const count=this.data.words.filter(w=>w.groups.includes(group)).length;this.data.groups=this.data.groups.filter(g=>g!==group);this.data.lastCollectionGroups=this.data.lastCollectionGroups.filter(g=>g!==group);for(const w of [...this.data.words,...this.data.trash])w.groups=w.groups.filter(g=>g!==group);this.save();return count;}
@@ -62,7 +92,13 @@ class Store {
     for(const file of files(removed)){try{const target=this.asset(file);if(keep.has(target.toLowerCase()))continue;if(/^assets[\\/]/.test(file)&&/\.(mp3|png)$/i.test(file)&&fs.existsSync(target))fs.unlinkSync(target);}catch{failed++;}}
     return {count:removed.length,failed};
   }
-  update(word) { const i=this.data.words.findIndex(w=>w.id===word.id); if(i<0) throw new Error('单词不存在'); if(!word.entries[word.source]) throw new Error('请先收藏此词典'); this.data.words[i]=word; this.save(); }
+  update(word) { const i=this.data.words.findIndex(w=>w.id===word.id); if(i<0) throw new Error('单词不存在'); if(!word.entries[word.source]) throw new Error('请先收藏此词典'); const current=this.data.words[i];
+    for(const [source,entry]of Object.entries(current.entries)){
+      if(word.entries[source]?.capturedAt!==entry.capturedAt)throw new Error('词条已经更新，请重新打开词条后再保存');
+      // Media belongs to the background queue, not to an older renderer snapshot.
+      word.entries[source].audio=structuredClone(entry.audio);
+    }
+    this.data.words[i]=word; this.save(); }
   asset(relative) { const resolved=path.resolve(this.root,relative); if(!resolved.startsWith(path.resolve(this.root)+path.sep)) throw new Error('无效文件路径'); return resolved; }
 }
 module.exports={Store,mergeEntry,key};

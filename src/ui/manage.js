@@ -8,16 +8,16 @@ function renderWordList(){
   const toggle=$('#only-unselected');toggle.setAttribute('aria-pressed',String(unselectedFilters[libraryFilterKey()]));toggle.textContent='仅未选释义 · '+filteredWords(true).filter(w=>!selectedCount(w)).length;
   $('#delete-group').classList.toggle('hidden',!$('#group-filter').value);const list=filteredWords();$('#library-summary').textContent=`${list.length} 个单词`;$('#word-list').innerHTML=list.length?list.map(w=>`<div class="word-list-item ${selectedCount(w)?'':'unselected-word'}"><input type="checkbox" data-check-word="${w.id}" aria-label="选择单词 ${esc(w.word)}" ${selectedWords.has(w.id)?'checked':''}><button class="word-row ${w.id===activeId?'active':''}" data-id="${w.id}"><strong>${esc(w.word)}</strong><small>${selectedCount(w)?(libraryIsReview()?'':selectedSources(w).map(s=>s==='mw'?'MW':'Cam').join(' + ')+' · ')+'已选 '+selectedCount(w)+' 条':'未选释义'}</small></button></div>`).join(''):'<p class="muted">还没有匹配的单词</p>';
   $$('[data-check-word]').forEach(b=>b.onchange=()=>{b.checked?selectedWords.add(b.dataset.checkWord):selectedWords.delete(b.dataset.checkWord);updateBatch();});
-  $$('.word-row').forEach(b=>b.onclick=()=>run(async()=>{if(b.dataset.id!==activeId&&!await leaveSelection())return;await saveQueue;activeId=b.dataset.id;renderList();renderDetail();detailScroller().scrollTop=0;}));updateBatch();
+  $$('.word-row').forEach(b=>b.onclick=()=>run(async()=>{if(b.dataset.id!==activeId&&!await leaveSelection())return;await ensureSaved();activeId=b.dataset.id;renderList();renderDetail();detailScroller().scrollTop=0;}));updateBatch();
 }
 function confirmOperation(title,message,button='确定'){const d=$('#confirm-dialog');$('#confirm-title').textContent=title;$('#confirm-message').textContent=message;$('#confirm-action').textContent=button;d.returnValue='cancel';return new Promise(resolve=>{d.addEventListener('close',()=>resolve(d.returnValue==='ok'),{once:true});d.showModal();});}
 async function deleteWords(ids){
-  if(!await leaveSelection())return;await saveQueue;
+  if(!await leaveSelection())return;await ensureSaved();
   const words=data.words.filter(w=>ids.includes(w.id));if(!words.length)return;
   if(!await confirmOperation(`删除 ${words.length} 个单词？`,`将从两个词库及所有分组中同步移除：${words.slice(0,8).map(w=>w.word).join('、')}${words.length>8?'…':''}。内容进入回收站，保留 7 天后永久清理。`,'移入回收站')){renderDetail();return;}
   const count=await api('trashWords',words.map(w=>w.id));selectedWords.clear();if(ids.includes(activeId))activeId=null;await refresh();renderLibrary();toast(`已删除 ${count} 个单词，7 天内可在回收站恢复。`);
 }
-async function removeGroup(){if(!await leaveSelection())return;await saveQueue;const group=$('#group-filter').value,ids=[...selectedWords];if(!group||!ids.length)return;if(!await confirmOperation('移出当前分组？',`将 ${ids.length} 个单词移出“${group}”；词库及其他分组中的内容保留。`,'移出分组')){renderDetail();return;}await api('removeFromGroup',ids,group);selectedWords.clear();await refresh();renderLibrary();}
+async function removeGroup(){if(!await leaveSelection())return;await ensureSaved();const group=$('#group-filter').value,ids=[...selectedWords];if(!group||!ids.length)return;if(!await confirmOperation('移出当前分组？',`将 ${ids.length} 个单词移出“${group}”；词库及其他分组中的内容保留。`,'移出分组')){renderDetail();return;}await api('removeFromGroup',ids,group);selectedWords.clear();await refresh();renderLibrary();}
 function updateCollectionLabels(){const groups=(data.lastCollectionGroups||[]).filter(g=>data.groups.includes(g));$('#recent-groups').textContent=groups.length?'上次：'+groups.join('、'):'尚无收藏分组记录';$$('[data-quick]').forEach(b=>b.title=groups.length?'收藏至：'+groups.join('、'):'请选择收藏分组');}
 function renderCollectionGroups(){const q=$('#collection-filter').value.trim().toLowerCase();$('#collection-groups').innerHTML=data.groups.filter(g=>g.toLowerCase().includes(q)).map(g=>`<label><input type="checkbox" data-collection-group="${esc(g)}" ${collectionGroups.has(g)?'checked':''}>${esc(g)}</label>`).join('')||'<p class="muted">没有匹配分组，可以在下方新建。</p>';$$('[data-collection-group]').forEach(b=>b.onchange=()=>{b.checked?collectionGroups.add(b.dataset.collectionGroup):collectionGroups.delete(b.dataset.collectionGroup);$('#collection-confirm').disabled=!collectionGroups.size;});$('#collection-confirm').disabled=!collectionGroups.size;}
 async function chooseCollection(source,quick=false){
@@ -30,7 +30,7 @@ async function chooseCollection(source,quick=false){
 }
 async function repairWord(id,source){const inWork=page==='work';if(inWork){if(!await leaveSelection())return;switchWorkTab('query');}else if(!await go('search'))return;browsing=true;layout();toast('正在重新加载并提取此词典；旧内容及个人修改会保留。');try{await api('repair',id,source);await refresh();if(inWork)await openWorkLibraryWord(id,'full');else{activeId=id;await go('library');}toast('词条已更新，请核对释义选择；无法对应的旧修改保留在“更新待确认”。');}catch(e){toast('未覆盖旧词条。请完成网页验证后，再点击“收藏进”重试：'+e.message);}}
 async function deleteCurrentGroup(){
-  if(!await leaveSelection())return;await saveQueue;renderDetail();const group=$('#group-filter').value;if(!group)return;
+  if(!await leaveSelection())return;await ensureSaved();renderDetail();const group=$('#group-filter').value;if(!group)return;
   const count=data.words.filter(w=>w.groups.includes(group)).length;
   if(!await confirmOperation('删除分组“'+group+'”？','该分组包含 '+count+' 个单词。只删除分组，两个词库的单词、其他分组归属、笔记及释义选择均保留。','删除分组'))return;
   await api('deleteGroup',group);selectedWords.clear();await refresh();renderLibrary();toast('分组已删除，单词已保留。');

@@ -1,6 +1,9 @@
+import {indexText,findMatches,normalizedQuery} from './pdf-search.mjs';
 import * as pdfjs from '../../node_modules/pdfjs-dist/build/pdf.mjs';
 pdfjs.GlobalWorkerOptions.workerSrc=new URL('../../node_modules/pdfjs-dist/build/pdf.worker.mjs',import.meta.url).href;
 const $=s=>document.querySelector(s);let pdf=null,pageNo=1,renderId=0,findId=0,loading=false,match=null;
+const textCache=new Map();let searchResults=[],searchIndex=-1,searchQuery='',searchBusy=false;let textDivs=[];
+async function pageText(n){if(!textCache.has(n))textCache.set(n,pdf.getPage(n).then(p=>p.getTextContent()));return textCache.get(n);}
 let lastDrawWidth=0;let highlights=[],position={scrollX:0,scrollY:0};
 const status=text=>$('#status').textContent=text;
 async function draw(){
@@ -10,18 +13,43 @@ async function draw(){
  const canvas=document.createElement('canvas'),ratio=Math.min(devicePixelRatio,2);canvas.width=Math.ceil(viewport.width*ratio);canvas.height=Math.ceil(viewport.height*ratio);canvas.style.width=viewport.width+'px';canvas.style.height=viewport.height+'px';sheet.append(canvas);
  $('#page').value=pageNo;$('#total').textContent='/ '+pdf.numPages;$('#prev').disabled=pageNo===1;$('#next').disabled=pageNo===pdf.numPages;
  try{await p.render({canvasContext:canvas.getContext('2d'),viewport,transform:[ratio,0,0,ratio,0,0]}).promise;if(id!==renderId)return;
- const content=await p.getTextContent();if(id!==renderId)return;const layer=document.createElement('div');layer.className='textLayer';sheet.append(layer);await new pdfjs.TextLayer({textContentSource:content,container:layer,viewport}).render();if(id!==renderId)return;
+ const content=await pageText(pageNo);if(id!==renderId)return;const layer=document.createElement('div');layer.className='textLayer';sheet.append(layer);const textLayer=new pdfjs.TextLayer({textContentSource:content,container:layer,viewport});await textLayer.render();if(id!==renderId)return;textDivs=textLayer.textDivs;
  status(content.items.some(i=>i.str?.trim())?'选中文字后按 Ctrl+C 可查词；右键可选择“复制并查词”。':'本页没有可选文字，可能是扫描页；第一版不含 OCR。');
- paintHighlights();if(match?.page===pageNo){const spans=[...layer.querySelectorAll('span')].filter(s=>s.textContent.toLowerCase().includes(match.query));for(const span of spans)span.classList.add('find-match');}
+ paintHighlights();paintSearch();
  }catch(e){if(id===renderId)status('本页显示失败：'+e.message);}finally{if(id===renderId){loading=false;const sc=$('#scroller');sc.scrollLeft=position.scrollX*Math.max(0,sc.scrollWidth-sc.clientWidth);sc.scrollTop=position.scrollY*Math.max(0,sc.scrollHeight-sc.clientHeight);savePDFState();}}
 }
 async function navigate(n){position={scrollX:0,scrollY:0};pageNo=Math.max(1,Math.min(pdf.numPages,Math.trunc(Number(n))||1));$('#scroller').scrollTop=0;await draw();}
 window.addEventListener('message',async e=>{if(e.source!==parent||e.data?.kind!=='load-pdf'||pdf)return;try{const saved=e.data.record;highlights=saved?.highlights||[];pageNo=saved?.page||1;position={scrollX:saved?.scrollX||0,scrollY:saved?.scrollY||0};$('#zoom').value=saved?.zoom||'fit';const task=pdfjs.getDocument({data:new Uint8Array(e.data.bytes),isEvalSupported:false,cMapUrl:new URL('../../node_modules/pdfjs-dist/cmaps/',import.meta.url).href,cMapPacked:true,standardFontDataUrl:new URL('../../node_modules/pdfjs-dist/standard_fonts/',import.meta.url).href,wasmUrl:new URL('../../node_modules/pdfjs-dist/wasm/',import.meta.url).href});pdf=await task.promise;pageNo=Math.min(pageNo,pdf.numPages);$('#page').max=pdf.numPages;await draw();}catch(err){status(err.name==='PasswordException'?'此 PDF 需要密码，请先解锁后重新打开。':'无法打开 PDF：'+err.message);}});
 $('#prev').onclick=()=>pdf&&navigate(pageNo-1);$('#next').onclick=()=>pdf&&navigate(pageNo+1);$('#page').onchange=()=>{if(pdf)navigate(Number($('#page').value)||1);};$('#zoom').onchange=draw;
-$('#find').onsubmit=async e=>{e.preventDefault();if(!pdf)return;const query=$('#find-text').value.trim().toLowerCase();if(!query)return;const id=++findId;status('正在搜索…');const start=match?.query===query?match.page:pageNo;
- for(let offset=0;offset<=pdf.numPages;offset++){const n=(start-1+offset)%pdf.numPages+1,p=await pdf.getPage(n),content=await p.getTextContent();if(id!==findId)return;const hits=content.items.filter(i=>i.str?.toLowerCase().includes(query));let index=offset===0&&match?.query===query?match.index+1:0;if(index<hits.length){match={query,page:n,index};await navigate(n);$('#sheet .find-match')?.scrollIntoView({block:'center'});status('已找到：'+query+' · 第 '+n+' 页');return;}}
- status('未找到：'+query);
-};
+function paintSearch(){
+ $('#sheet').querySelectorAll('.search-hit').forEach(el=>el.remove());
+ const sheet=$('#sheet').getBoundingClientRect();
+ searchResults.forEach((hit,index)=>{
+  if(hit.page!==pageNo)return;const first=textDivs[hit.start.item]?.firstChild,last=textDivs[hit.end.item]?.firstChild;if(!first||!last)return;
+  const range=document.createRange();range.setStart(first,hit.start.offset);range.setEnd(last,hit.end.offset+1);
+  for(const rect of range.getClientRects()){if(!rect.width)continue;const el=document.createElement('div');el.className='search-hit'+(index===searchIndex?' current-search-hit':'');Object.assign(el.style,{left:(rect.left-sheet.left)+'px',top:(rect.top-sheet.top)+'px',width:rect.width+'px',height:rect.height+'px'});$('#sheet').append(el);}
+ });
+}
+async function find(direction=1){
+ if(!pdf)return;const query=normalizedQuery($('#find-text').value);if(!query)return;
+ const id=++findId;
+ if(query!==searchQuery||searchBusy){
+  searchQuery=query;searchResults=[];searchIndex=-1;searchBusy=true;$('#find-count').textContent='正在搜索…';
+  try{for(let n=1;n<=pdf.numPages;n++){const content=await pageText(n);if(id!==findId)return;searchResults.push(...findMatches(indexText(content.items),query).map(hit=>({...hit,page:n})));}}
+  catch(error){if(id===findId){searchQuery='';$('#find-count').textContent='搜索失败';status(error.message);}return;}
+  finally{if(id===findId)searchBusy=false;}
+  searchIndex=direction>0?searchResults.findIndex(hit=>hit.page>=pageNo):searchResults.findLastIndex(hit=>hit.page<=pageNo);
+  if(searchIndex<0)searchIndex=direction>0?0:searchResults.length-1;
+ }else if(searchResults.length)searchIndex=(searchIndex+direction+searchResults.length)%searchResults.length;
+ if(id!==findId)return;
+ $('#find-count').textContent=searchResults.length?(searchIndex+1)+' / '+searchResults.length:'0 / 0';
+ if(!searchResults.length){paintSearch();status('未找到：'+query);return;}
+ await navigate(searchResults[searchIndex].page);if(id!==findId)return;
+ $('#sheet .current-search-hit')?.scrollIntoView({block:'center'});
+}
+$('#find').onsubmit=e=>{e.preventDefault();find().catch(e=>status(e.message));};
+$('#find-prev').onclick=()=>find(-1).catch(e=>status(e.message));
+$('#find-text').oninput=()=>{findId++;searchBusy=false;searchQuery='';searchResults=[];searchIndex=-1;$('#find-count').textContent='';paintSearch();};
 function selection(){const s=getSelection();return s?.rangeCount&&$('#sheet').contains(s.anchorNode)&&$('#sheet').contains(s.focusNode)?s.toString():'';}
 let explicit=false;
 function captureHighlight(text){

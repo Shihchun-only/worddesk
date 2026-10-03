@@ -28,3 +28,7 @@ fixtures/*
 !fixtures/go-mw.html
 !fixtures/go-cambridge.html
 !fixtures/navigation-mw.html
+
+reading-history.json
+*.json.backups/
+*.unreadable-*

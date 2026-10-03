@@ -22,16 +22,17 @@ function beginSelection() {
 function selectionDirty() { return selectionDraft && JSON.stringify(selectionDraft.bySource)!==selectionDraft.original; }
 async function saveSelection() {
   if (!selectionDraft) return;
+  await ensureSaved();
   const draft=selectionDraft, w=data.words.find(w=>w.id===draft.id), updated=structuredClone(w);
   for(const [source,values]of Object.entries(draft.bySource))updated.entries[source].senses.forEach((s,i)=>{s.selected=values[i].selected;s.includeChinese=s.selected&&values[i].includeChinese;s.examples.forEach((x,j)=>x.selected=values[i].examples[j]);});
   await saveQueue;
-  await api('update',updated);
+  try{await api('update',updated);selectionSaveError=false;updateSaveNotice();}catch(e){selectionSaveError=true;updateSaveNotice();throw e;}
   data.words[data.words.findIndex(w=>w.id===updated.id)]=updated;
   selectionDraft=null;
   renderList(); renderDetail(); toast('选择已保存，复习词库和 Excel 导出已同步。');
 }
 async function leaveSelection() {
-  if (!selectionDirty()) { selectionDraft=null; return true; }
+  if (!selectionDirty()) { selectionDraft=null;selectionSaveError=false;updateSaveNotice();return true; }
   if(selectionPrompt) return selectionPrompt;
   const dialog=$('#selection-dialog');
   selectionPrompt=new Promise(resolve=>{
@@ -40,14 +41,14 @@ async function leaveSelection() {
       if(action==='save') {
         try { await saveSelection(); resolve(true); }
         catch(e) { toast('保存失败，选择仍保留：'+e.message); resolve(false); }
-      } else if(action==='discard') { selectionDraft=null; resolve(true); }
+      } else if(action==='discard') { selectionDraft=null;selectionSaveError=false;updateSaveNotice();resolve(true); }
       else resolve(false);
     },{once:true});
     dialog.returnValue='continue';api('layout',{},false).then(()=>dialog.showModal());
   });
   try{return await selectionPrompt;}finally{selectionPrompt=null;updateWorkLibraryBadge();layout();}
 }
-window.prepareToClose=async()=>{if($('#edit-dialog')?.open){$('#edit-save').focus();return false;}document.activeElement?.blur();await saveQueue;return await leaveSelection();};
+window.prepareToClose=async()=>{if($('#edit-dialog')?.open){$('#edit-save').focus();return false;}document.activeElement?.blur();try{await ensureSaved();await api('flushPDF');}catch(e){updateSaveNotice(e.message);return false;}return await leaveSelection();};
 function selectionBar(e) {
   if(!selectionDraft)return workReturnButton()+'<button id="begin-selection" class="primary">选择释义</button>';
   return `<span id="selection-count" class="muted">${draftCountText()}</span><button id="select-all">${word().source==='cambridge'?'全选中英':'全选'}</button><button id="select-none">清空当前词典</button><button id="cancel-selection">取消</button>${workReturnButton(true)}<button id="save-selection" class="primary">保存选择</button>`;
@@ -91,19 +92,19 @@ function renderDetail() {
   const e=w.entries[w.source];target.classList.add('source-'+w.source);
   const chosen=e.senses.filter(s=>s.selected).length;
   const warnings=e.warnings.filter(message=>!/截图|快照/.test(message)&&(w.source!=='cambridge'||!/音频|录音/.test(message)));
-  target.innerHTML=`<div class="dictionary-source">${w.source==='mw'?'MERRIAM-WEBSTER':'CAMBRIDGE · 英语简体中文'}${review?' · 复习词条':''}</div><div class="detail-title"><div class="word-heading"><h2 class="entry-headword">${esc(w.word)}</h2><div class="detail-controls source-tabs">${['mw','cambridge'].map(source=>`<button data-source="${source}" class="${source===w.source?'active':''}" ${w.entries[source]?'':'disabled'}>${source==='mw'?'MW':'Cam'}</button>`).join('')}</div></div><div class="entry-actions">${selectionBar(e)}<button id="${review?'view-full':'lookup-again'}">${review?'查看完整词条 ↗':'重新查词 ↗'}</button><button id="delete-word" class="danger">删除单词</button></div></div>${pronunciationHTML(e)}${!review&&e.parserVersion!==3?'<div class="warning">这是旧版提取的词条。重新提取可修正音标和释义分组；旧修改会保留供核对。 <button id="repair-entry">重新提取此词典</button></div>':''}${warnings.length&&!review?`<div class="warning">${warnings.map(esc).join('<br>')}</div>`:''}${review&&!chosen?'<div class="review-empty"><h3>尚未选择复习释义</h3><p>单词已经收藏。挑选需要的释义后，它们会显示在这里。</p><button id="choose-from-review" class="primary">去选择释义</button></div>':sensesHTML(e,review)}${review?`${w.notes?`<details class="review-extra personal-notes"><summary>个人笔记</summary><p class="preserve-lines">${esc(w.notes)}</p></details>`:''}`:`<div class="entry-footer"><details><summary>考试遮盖词</summary><p class="muted">自动遮盖答案及常见词形。可补充词或短语，用逗号或换行分隔；离开输入框后自动保存，仅影响考试显示，不影响判题。</p><textarea id="exam-mask-words" placeholder="例如：scarcely, scarcity">${esc((w.examMaskWords||[]).join('\n'))}</textarea></details><details><summary>个人笔记</summary><textarea id="notes" placeholder="写下你的理解，离开输入框后自动保存">${esc(w.notes)}</textarea></details>${w.source==='mw'?`<details><summary>音频下载</summary>${e.audio.some(a=>!a.file)?'<button class="small-button" id="retry-audio">重试音频</button>':''}</details>`:''}${e.review?.length?`<div class="warning"><strong>更新待确认 · ${e.review.length} 条旧释义</strong><p>旧内容和个人修改保留如下，请对照新版重新选择。</p>${e.review.map(s=>`<p translate="no">${esc(s.pos)} · ${esc(s.editedDefinition??s.definition)}<br>${esc(s.editedTranslation??s.translation)}<br>${esc(s.autoTranslation||'')}<br>${s.examples.map(x=>esc(x.text)).join('<br>')}</p>`).join('')}<button id="ack-review" class="small-button">已核对，移入历史记录</button></div>`:''}<details><summary>词形、短语、标签与原始文本</summary><p class="muted">词形：<span translate="${e.forms.length?'no':'yes'}">${esc(e.forms.join('; ')||'未提供 / 未识别')}</span><br>短语：<span translate="${e.phrases.length?'no':'yes'}">${esc(e.phrases.join('; ')||'未提供 / 未识别')}</span><br>标签：<span translate="${e.labels.length?'no':'yes'}">${esc(e.labels.join('; ')||'未提供 / 未识别')}</span></p><pre class="raw">${esc(e.rawText)}</pre></details>${e.references?.length?`<details><summary>交叉参见</summary><p class="cross-references">${e.references.map(esc).join(" · ")}</p></details>`:''}${e.reviewHistory?.length?`<details><summary>历史释义记录</summary><pre class="raw">${esc(JSON.stringify(e.reviewHistory,null,2))}</pre></details>`:''}<p class="muted">来源：${esc(e.url)}<br>最后提取：${esc(new Date(e.capturedAt).toLocaleString('zh-CN'))}</p></div>`}`;
-  mountDetailLayout(target,previousScroll);
+  target.innerHTML=`<div class="dictionary-source">${w.source==='mw'?'MERRIAM-WEBSTER':'CAMBRIDGE · 英语简体中文'}${review?' · 复习词条':''}</div><div class="detail-title"><div class="word-heading"><h2 class="entry-headword">${esc(w.word)}</h2><div class="detail-controls source-tabs">${['mw','cambridge'].map(source=>`<button data-source="${source}" class="${source===w.source?'active':''}" ${w.entries[source]?'':'disabled'}>${source==='mw'?'MW':'Cam'}</button>`).join('')}</div></div><div class="entry-actions">${selectionBar(e)}<details class="entry-more"><summary>更多</summary><div><button id="${review?'view-full':'lookup-again'}">${review?'查看完整词条 ↗':'重新查词 ↗'}</button><button id="delete-word" class="danger">删除单词</button></div></details></div></div>${pronunciationHTML(e)}${!review&&e.parserVersion!==3?'<div class="warning">这是旧版提取的词条。重新提取可修正音标和释义分组；旧修改会保留供核对。 <button id="repair-entry">重新提取此词典</button></div>':''}${warnings.length&&!review?`<div class="warning">${warnings.map(esc).join('<br>')}</div>`:''}${review&&!chosen?'<div class="review-empty"><h3>尚未选择复习释义</h3><p>单词已经收藏。挑选需要的释义后，它们会显示在这里。</p><button id="choose-from-review" class="primary">去选择释义</button></div>':sensesHTML(e,review)}${review?`${w.notes?`<details class="review-extra personal-notes"><summary>个人笔记</summary><p class="preserve-lines">${esc(w.notes)}</p></details>`:''}`:`<div class="entry-footer"><details><summary>考试遮盖词</summary><p class="muted">自动遮盖答案及常见词形。可补充词或短语，用逗号或换行分隔；离开输入框后自动保存，仅影响考试显示，不影响判题。</p><textarea id="exam-mask-words" placeholder="例如：scarcely, scarcity">${esc((w.examMaskWords||[]).join('\n'))}</textarea></details><details><summary>个人笔记</summary><textarea id="notes" placeholder="写下你的理解，离开输入框后自动保存">${esc(w.notes)}</textarea></details>${w.source==='mw'?`<details><summary>音频下载</summary>${e.audio.some(a=>!a.file)?'<button class="small-button" id="retry-audio">重试音频</button>':''}</details>`:''}${e.review?.length?`<div class="warning"><strong>更新待确认 · ${e.review.length} 条旧释义</strong><p>旧内容和个人修改保留如下，请对照新版重新选择。</p>${e.review.map(s=>`<p translate="no">${esc(s.pos)} · ${esc(s.editedDefinition??s.definition)}<br>${esc(s.editedTranslation??s.translation)}<br>${esc(s.autoTranslation||'')}<br>${s.examples.map(x=>esc(x.text)).join('<br>')}</p>`).join('')}<button id="ack-review" class="small-button">已核对，移入历史记录</button></div>`:''}<details><summary>词形、短语、标签与原始文本</summary><p class="muted">词形：<span translate="${e.forms.length?'no':'yes'}">${esc(e.forms.join('; ')||'未提供 / 未识别')}</span><br>短语：<span translate="${e.phrases.length?'no':'yes'}">${esc(e.phrases.join('; ')||'未提供 / 未识别')}</span><br>标签：<span translate="${e.labels.length?'no':'yes'}">${esc(e.labels.join('; ')||'未提供 / 未识别')}</span></p><pre class="raw">${esc(e.rawText)}</pre></details>${e.references?.length?`<details><summary>交叉参见</summary><p class="cross-references">${e.references.map(esc).join(" · ")}</p></details>`:''}${e.reviewHistory?.length?`<details><summary>历史释义记录</summary><pre class="raw">${esc(JSON.stringify(e.reviewHistory,null,2))}</pre></details>`:''}<p class="muted">来源：${esc(e.url)}<br>最后提取：${esc(new Date(e.capturedAt).toLocaleString('zh-CN'))}</p></div>`}`;
+  mountDetailLayout(target,previousScroll);bindLibraryTools(e);
   if(review){$('#view-full').onclick=()=>run(()=>openLibraryView('full'));if($('#choose-from-review'))$('#choose-from-review').onclick=()=>run(async()=>{await openLibraryView('full');beginSelection();});}
   else {
     $('#lookup-again').onclick=()=>run(async()=>{if(page==='work')switchWorkTab('query');else if(!await go('search'))return;$('#query').value=w.word;await api('search',w.word);browsing=true;layout();});
-    $$('[data-source]').forEach(b=>b.onclick=()=>run(async()=>{await saveQueue;if(selectionDraft)selectionDraft.scroll[word().source]=detailScroller().scrollTop;word().source=b.dataset.source;await saveWord();renderList();renderDetail();detailScroller().scrollTop=selectionDraft?.scroll[b.dataset.source]||0;}));
+    $$('[data-source]').forEach(b=>b.onclick=()=>run(async()=>{await ensureSaved();if(selectionDraft)selectionDraft.scroll[word().source]=detailScroller().scrollTop;word().source=b.dataset.source;await saveWord();renderList();renderDetail();detailScroller().scrollTop=selectionDraft?.scroll[b.dataset.source]||0;}));
     if($('#exam-mask-words'))$('#exam-mask-words').onchange=()=>{word().examMaskWords=[...new Set($('#exam-mask-words').value.split(/[,，;；\n]+/).map(t=>t.trim()).filter(Boolean))];run(saveWord);};
     if($('#notes'))$('#notes').onchange=()=>{word().notes=$('#notes').value;run(saveWord);};
     bindWorkReturnButtons();
     if($('#begin-selection'))$('#begin-selection').onclick=beginSelection;
     if(selectionDraft){
       $('#save-selection').onclick=()=>run(saveSelection);
-      $('#cancel-selection').onclick=()=>{selectionDraft=null;renderDetail();};
+      $('#cancel-selection').onclick=()=>{selectionDraft=null;selectionSaveError=false;updateSaveNotice();renderDetail();};
       for(const[id,value]of [['select-all',true],['select-none',false]])$('#'+id).onclick=()=>{selectionDraft.values.forEach(s=>{s.selected=value;s.includeChinese=value;if(!value)s.examples.fill(false);});if(!value)$$('[data-example]').forEach(b=>b.checked=false);updateSelectionDisplay();};
       $$('[data-select-sense]').forEach(el=>{
         const toggle=()=>{const s=selectionDraft.values[+el.dataset.selectSense];s.selected=!s.selected;s.includeChinese=false;updateSelectionDisplay();};
@@ -114,7 +115,7 @@ function renderDetail() {
     }
     $$('[data-edit]').forEach(t=>t.onchange=()=>{const[i,k]=t.dataset.edit.split(':');word().entries[w.source].senses[+i][k]=t.value;run(saveWord);});
     $$('[data-example-edit]').forEach(t=>t.onchange=()=>{const[i,j]=t.dataset.exampleEdit.split(':').map(Number);word().entries[w.source].senses[i].examples[j].autoTranslation=t.value;run(saveWord);});
-    if($('#retry-audio'))$('#retry-audio').onclick=()=>run(async()=>{$('#retry-audio').disabled=true;await saveQueue;const missing=await api('retryAudio',w.id,w.source);await refresh();renderDetail();toast(missing?`${missing} 段音频仍未下载成功`:'音频已下载');});
+    if($('#retry-audio'))$('#retry-audio').onclick=()=>run(async()=>{$('#retry-audio').disabled=true;await saveQueue;await api('retryAudio',w.id,w.source);await refresh();renderDetail();toast('录音将在后台下载，文字可继续使用。');});
 
     if($('#ack-review'))$('#ack-review').onclick=()=>run(async()=>{e.reviewHistory=[...(e.reviewHistory||[]),...e.review];e.review=[];e.warnings=e.warnings.filter(s=>!s.includes('旧释义'));await saveWord();renderDetail();});
   }
@@ -127,7 +128,7 @@ const translationBusy=new Set();
 function renderReview(w,target,previousScroll=0){
   const sources=selectedSources(w),pronSource=reviewPronunciationSource(w);
   const toggleLabel=reviewPhoneticsVisible?'隐藏音标':'显示音标';
-  target.innerHTML=`<div class="dictionary-source">复习词条</div><div class="detail-title"><div class="word-heading"><h2 class="entry-headword">${esc(w.word)}</h2></div><div class="entry-actions"><button id="toggle-review-phonetics" class="phonetics-toggle" title="${toggleLabel}" aria-label="${toggleLabel}" aria-pressed="${reviewPhoneticsVisible}">${reviewPhoneticsVisible?'○':'☾'}</button><button id="view-full">查看完整词条 ↗</button><button id="delete-word" class="danger">删除单词</button></div></div>${reviewPhoneticsVisible?(pronSource?'<div class="review-pronunciations" data-pron-source="'+pronSource+'">'+pronunciationHTML(w.entries[pronSource])+'</div>':'<p class="muted review-pronunciations">尚无 MW 音标，请重新查询并收藏 MW</p>'):''}${sources.map(source=>`<section class="review-source source-${source}" data-review-source="${source}" data-entry-source="${source}">${sensesHTML(w.entries[source],true)}</section>`).join('')}${!sources.length?'<div class="review-empty"><h3>尚未选择复习释义</h3><button id="choose-from-review" class="primary">去选择释义</button></div>':''}${w.notes?`<details class="review-extra personal-notes"><summary>个人笔记</summary><p class="preserve-lines">${esc(w.notes)}</p></details>`:''}`;
+  target.innerHTML=`<div class="dictionary-source">复习词条</div><div class="detail-title"><div class="word-heading"><h2 class="entry-headword">${esc(w.word)}</h2></div><div class="entry-actions"><button id="toggle-review-phonetics" class="phonetics-toggle" title="${toggleLabel}" aria-label="${toggleLabel}" aria-pressed="${reviewPhoneticsVisible}">${toggleLabel}</button><button id="view-full">查看完整词条 ↗</button><button id="delete-word" class="danger">删除单词</button></div></div>${reviewPhoneticsVisible?(pronSource?'<div class="review-pronunciations" data-pron-source="'+pronSource+'">'+pronunciationHTML(w.entries[pronSource])+'</div>':'<p class="muted review-pronunciations">尚无 MW 音标，请重新查询并收藏 MW</p>'):''}${sources.map(source=>`<section class="review-source source-${source}" data-review-source="${source}" data-entry-source="${source}">${sensesHTML(w.entries[source],true)}</section>`).join('')}${!sources.length?'<div class="review-empty"><h3>尚未选择复习释义</h3><button id="choose-from-review" class="primary">去选择释义</button></div>':''}${w.notes?`<details class="review-extra personal-notes"><summary>个人笔记</summary><p class="preserve-lines">${esc(w.notes)}</p></details>`:''}`;
   mountDetailLayout(target,previousScroll);
   $('#toggle-review-phonetics').onclick=()=>{reviewPhoneticsVisible=!reviewPhoneticsVisible;renderDetail();$('#toggle-review-phonetics').focus();};
   $('#view-full').onclick=()=>run(()=>openLibraryView('full'));$('#delete-word').onclick=()=>run(()=>deleteWords([w.id]));
